@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Açık Sekmeleri Say">
+<!ENTITY open_tabs "Sekme Aç:">
+<!ENTITY options.label "Ayarlar:">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Tab Counter Ayarları">
+<!ENTITY cssInfo.label "Metni Değiştir">
+<!ENTITY color.label "Font Rengi:">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Yazı Tipi Büyüklüğü:">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "Font Ailesi:">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Yazı tipi genişliği:">
+<!ENTITY fontWeight.accesskey "W">
+<!ENTITY optionText.label "Göstermesi için metin seçmelisin...">
+<!ENTITY preText.label "Numaradan Önce:">
+<!ENTITY preText.accesskey "B">
+<!ENTITY postText.label "Numaradan Sonra">
+<!ENTITY postText.accesskey "A">
+<!ENTITY apply.label "Uygula">
+<!ENTITY useFormatString.label "İleri Düzey Metin Formatı Kullan">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "İleri Düzey Metin Gösterimi">
+<!ENTITY formatString.label "Dizgi Formatı:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Dizgi Genişletme Formatı">
+<!ENTITY formatStringToolTip.after.label "Bu sekmeden sonraki sekmenin nosu.">
+<!ENTITY formatStringToolTip.before.label "Bu sekmeden Önceki sekmenin Nosu">
+<!ENTITY formatStringToolTip.current.label "Şuan Ki sekmenin Nosu:">
+<!ENTITY formatStringToolTip.number.label "Açık Sekme Sayısı">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Mevcut sekmenin numarası.">
+<!ENTITY formatStringToolTip.visible_number.label "Mevcut sekmelerin toplamı.">
+<!ENTITY noAppTabs.label "Uygulama Sekmelerini Sayma">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Tooltip Pasif">
+<!ENTITY noTooltip.accesskey "T">

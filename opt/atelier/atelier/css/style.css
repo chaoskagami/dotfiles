@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'customfont';    
+    src: local('Lucida Console');
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+	margin:0;
+
+	color: #ffffff;
+	background: rgba(0,0,0,0.5);
+
+	font-family: 'customfont';
+	font-size: 10px;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+}
+
+html {
+	background: rgba(0,0,0,0);
+	-webkit-user-select:none;
+}
+
+body {
+	overflow: hidden;
+	float: left;
+	position: relative;
+	display: inline-block;
+}
+
+progress {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 4px;
+	width: 100%;
+	padding: 0;
+	vertical-align: middle;
+}
+
+progress[value]::-webkit-progress-bar {
+	background-color: rgba(0,0,0,0);
+	border-radius: 0px;
+	border: 1px solid #fff;
+}
+
+progress[value]::-webkit-progress-value {
+	background-color: #fff;
+}
+
+.line_fill {
+    vertical-align: top !important;
+	display: table;
+	width: 100%;
+	padding: 0;
+}
+
+.line_left {
+    vertical-align: top !important;
+	white-space: nowrap;
+	width: -webkit-fit-content;
+	display:table-cell;
+	padding: 0;
+}
+
+.line_right {
+    vertical-align: top !important;
+	text-align: right;
+	white-space: nowrap;
+	width: 100%;
+	display:table-cell;
+	padding: 0;
+}

@@ -1,0 +1,28 @@
+Conky configs are structured roughly like so:
+
+section cfg {
+	"#" ignore nextline ||
+	"name" "opts" nextline
+}+
+TEXT
+section text {
+	text {
+		"..." ||
+		"$" cmd ||
+		"${" cmd params "}"
+	}
+}+
+
+The cfg section can simply be read and parsed very simply.
+The text section should be treated as all plaintest with search-and-replaces.
+
+It's probably simpler to convert configs to javascript, which can be eval'd.
+
+Functions which technically have an equivalent already:
+
+Conky:$hr				HTML:	<hr>
+Conky:${color c}		HTML:	<font color="c">
+Conky:$mem				Js:		memfree()
+Conky:$memmax			Js:		os.totalmem()
+Conky:$memperc			Js:		mem_free_perc()
+Conky:$membar H,W		Js/Htm:	"<progress style='width:Wpx;height:Npx;' max='100' value='" + mem_used_perc() + "'></progress>"

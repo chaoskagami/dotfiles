@@ -1,0 +1,23 @@
+{
+	"name": "pkg.atelier.sysmon",
+	"main": "core.htm",
+	"version": "0.0.1",
+	"window": {
+		"title": "Atelier",
+		"icon": "img/icon.png",
+		"toolbar": false,
+		"width": 1,
+		"height": 1,
+		"frame": false,
+		"resizable": false,
+		"transparent": true,
+		"visible-on-all-workspaces": true,
+		"show_in_taskbar": false,
+		"as_desktop": true,
+		"transparent": true,
+		"show_in_taskbar": false
+	},
+	"webkit": {
+		"page-cache": false
+	}
+}

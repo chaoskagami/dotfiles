@@ -1,0 +1,10 @@
+<!ENTITY filter "Search">
+<!ENTITY installfromurls "Install from URLs...">
+<!ENTITY managetitle "Stylish">
+<!ENTITY nostylesstart "Visit">
+<!ENTITY nostylesend "for information on how to use Stylish.">
+<!ENTITY sortenabled "Enabled">
+<!ENTITY sortname "Name">
+<!ENTITY sorttype "Type">
+<!ENTITY writenew "Write New Style">
+<!ENTITY writenew.ak "W">

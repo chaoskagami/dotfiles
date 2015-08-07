@@ -1,0 +1,54 @@
+#!/bin/sh
+
+# This is a terribly complicated shell script which exports environment vars.
+# It is used mainly to configure software so I don't have to punch too many things.
+
+if [ "$PIE" = "1" ]; then
+	export CFLAGS="$CFLAGS -fPIC -fpie"
+	export LDFLAGS="$LDFLAGS -fPIC -fpie"
+else
+	export CFLAGS="$CFLAGS -fPIC"
+	export LDFLAGS="$LDFLAGS -fPIC"
+fi
+
+if [ ! -z "$MULTI" ]; then
+	echo "[?] Versioned build -> /usr/multi/${MULTI}"
+	export PREFIX=/usr/multi/${MULTI}
+else
+	echo "[?] System-wide build."
+	export PREFIX=/usr
+fi
+
+if [ "$CMK" = "1" ]; then
+	# Cross builds of CMAKE stuff is dumb.
+
+	export CC="gcc"
+	export CXX="g++"
+	export FORTRAN="gfortran"
+	exec cmake -DCMAKE_INSTALL_PREFIX=$PREFIX "$@"
+else
+    export FLAGS="--prefix=$PREFIX --sysconfdir=/etc --localstatedir=/var"
+	if [ "$SYS" = "64" ]; then
+		export CC="gcc"
+		export CXX="g++"
+		export FORTRAN="gfortran"
+		exec ./configure $FLAGS "$@"
+	elif [ "$SYS" = "x32" ]; then
+		export CC="gcc -mx32"
+		export CXX="g++ -mx32"
+		export F77="gfortran -mx32"
+		export LDFLAGS="$LDFLAGS -L/usr/libx32"
+		export PKG_CONFIG_PATH="/usr/libx32/pkgconfig"
+		export USE_ARCH=x32
+		exec ./configure $FLAGS --libdir=$PREFIX/libx32 "$@"
+	elif [ "$SYS" = "32" ]; then
+		export CC="gcc -m32"
+		export CXX="g++ -m32"
+		export F77="gfortran -m32"
+		export LDFLAGS="$LDFLAGS -L/usr/lib32"
+		export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+		export USE_ARCH=32
+		exec linux32 ./configure $FLAGS --libdir=$PREFIX/lib32 "$@"
+	fi
+fi
+

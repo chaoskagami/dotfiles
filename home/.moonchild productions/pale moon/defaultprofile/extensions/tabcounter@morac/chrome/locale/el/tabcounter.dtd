@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Μέτρηση ανοικτών καρτελών">
+<!ENTITY open_tabs "Ανοικτές καρτέλες: ">
+<!ENTITY options.label "Επιλογές">
+<!ENTITY options.accesskey "Ε">
+<!ENTITY options "Επιλογές για το Tab Counter">
+<!ENTITY cssInfo.label "Αλλαγή κειμένου (κλικ στις ετικέτες για πληροφορίες CSS):">
+<!ENTITY color.label "Χρώμα γραμματοσειράς:">
+<!ENTITY color.accesskey "Χ">
+<!ENTITY fontSize.label "Μέγεθος γραμματοσειράς:">
+<!ENTITY fontSize.accesskey "θ">
+<!ENTITY fontFamily.label "Οικογένεια γραμματοσειράς:">
+<!ENTITY fontFamily.accesskey "κ">
+<!ENTITY fontWeight.label "Βαρύτητα γραμματοσειράς:">
+<!ENTITY fontWeight.accesskey "Β">
+<!ENTITY optionText.label "Προαιρετικό κείμενο προς εμφάνιση...">
+<!ENTITY preText.label "Πριν το νούμερο:">
+<!ENTITY preText.accesskey "Π">
+<!ENTITY postText.label "Μετά το νούμερο:">
+<!ENTITY postText.accesskey "τ">
+<!ENTITY apply.label "Εφαρμογή">
+<!ENTITY useFormatString.label "Χρήση προηγμένης μορφοποίησης κειμένου">
+<!ENTITY useFormatString.accesskey "σ">
+<!ENTITY formatStringText.label "Προηγμένο κείμενο προς εμφάνιση...">
+<!ENTITY formatString.label "Μορφή συμβολοσειράς:">
+<!ENTITY formatString.accesskey "ο">
+<!ENTITY formatStringToolTip.label "Επεκτάσεις μορφών συμβολοσειρών:">
+<!ENTITY formatStringToolTip.after.label "Αριθμός καρτελών Μετά την τρέχουσα καρτέλα.">
+<!ENTITY formatStringToolTip.before.label "Αριθμός καρτελών Πριν την τρέχουσα καρτέλα.">
+<!ENTITY formatStringToolTip.current.label "Νούμερο τρέχουσας καρτέλας.">
+<!ENTITY formatStringToolTip.number.label "Συνολικός αριθμός καρτελών.">
+<!ENTITY formatStringToolTip.visible_after.label "Αριθμός ορατών καρτελών Μετά την τρέχουσα καρτέλα.">
+<!ENTITY formatStringToolTip.visible_before.label "Αριθμός ορατών καρτελών Πριν την τρέχουσα καρτέλα.">
+<!ENTITY formatStringToolTip.visible_current.label "Νούμερο τρέχουσας ορατής καρτέλας.">
+<!ENTITY formatStringToolTip.visible_number.label "Συνολικός αριθμός ορατών καρτελών.">
+<!ENTITY noAppTabs.label "Μη μέτρηση καρτελών εφαρμογών">
+<!ENTITY noAppTabs.accesskey "Μ">
+<!ENTITY noTooltip.label "Απενεργοποίηση επεξήγησης εργαλείου">
+<!ENTITY noTooltip.accesskey "ν">

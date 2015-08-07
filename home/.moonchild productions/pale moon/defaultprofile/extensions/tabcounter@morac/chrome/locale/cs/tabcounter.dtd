@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Počet otevřených panelů">
+<!ENTITY open_tabs "Otevřené panely:">
+<!ENTITY options.label "Možnosti">
+<!ENTITY options.accesskey "o">
+<!ENTITY options "Možnosti doplňku Tab Counter">
+<!ENTITY cssInfo.label "Změnit text (pro informace o kaskádových stylech klepněte na štítky):">
+<!ENTITY color.label "Barva písma:">
+<!ENTITY color.accesskey "B">
+<!ENTITY fontSize.label "Velikost písma:">
+<!ENTITY fontSize.accesskey "s">
+<!ENTITY fontFamily.label "Písmo:">
+<!ENTITY fontFamily.accesskey "P">
+<!ENTITY fontWeight.label "Šířka písma">
+<!ENTITY fontWeight.accesskey "m">
+<!ENTITY optionText.label "Volitelný text k zobrazení...">
+<!ENTITY preText.label "Před počítadlem:">
+<!ENTITY preText.accesskey "l">
+<!ENTITY postText.label "Za počítadlem:">
+<!ENTITY postText.accesskey "Z">
+<!ENTITY apply.label "Použít">
+<!ENTITY useFormatString.label "Použít pokročilé formátování textu">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Pokročilý text k zobrazení...">
+<!ENTITY formatString.label "Formátovací řetězec:">
+<!ENTITY formatString.accesskey "o">
+<!ENTITY formatStringToolTip.label "Rozšíření formátovacího řetězce:">
+<!ENTITY formatStringToolTip.after.label "Počet panelů za aktuálním panelem.">
+<!ENTITY formatStringToolTip.before.label "Počet panelů před aktuálním panelem.">
+<!ENTITY formatStringToolTip.current.label "Pořadí aktuálního panelu.">
+<!ENTITY formatStringToolTip.number.label "Celkový počet panelů.">
+<!ENTITY formatStringToolTip.visible_after.label "Počet viditelných panelů za aktuálním panelem.">
+<!ENTITY formatStringToolTip.visible_before.label "Počet viditelných panelů před aktuálním panelem.">
+<!ENTITY formatStringToolTip.visible_current.label "Počet viditelných panelů.">
+<!ENTITY formatStringToolTip.visible_number.label "Celkový počet viditelných panelů.">
+<!ENTITY noAppTabs.label "Nepočítat připnuté panely">
+<!ENTITY noAppTabs.accesskey "N">
+<!ENTITY noTooltip.label "Vypnout místní nápovědu">
+<!ENTITY noTooltip.accesskey "t">

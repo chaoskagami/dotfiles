@@ -1,0 +1,1552 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hkG/rAe4Q0ba3wfuaSCX6A==
+SHA1-Digest: /3fTk/tK1ryyHNdFGCQI3/Ro/2Q=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ciSaecXrXTN/Tmn2hAvQyA==
+SHA1-Digest: 3/QBxKlzWa5WYwu3wV190B1W7Oc=
+
+Name: CREDITS
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: x0s2IVR2ptnU2sU/k0quCA==
+SHA1-Digest: EnLzzTvuYYTKewftEGWOD+0ALJQ=
+
+Name: LICENSE.bsd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b4SjxKM2FPnzZORSdKgonQ==
+SHA1-Digest: Newla2xapmmwjZfrhLgGXXqOn14=
+
+Name: LICENSE.mit
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sb09cct4PFRmlWt59Pd8Bg==
+SHA1-Digest: OmnO/6Ubrh32LpVgkiCXPYPC8sg=
+
+Name: LICENSE.mpl
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vigvHDzJqYzA3FwrJd/FEA==
+SHA1-Digest: ksIbFAFyz8SuoZOBisATPyTd44Y=
+
+Name: components/greasemonkey.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0fxUrgUNW+M+CjMT0gqX3g==
+SHA1-Digest: 0BDVcE9akC5sb/U4xDxwRiOgopY=
+
+Name: components/scriptProtocol.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pGJZZcmZSVGtfqAUj5rIIA==
+SHA1-Digest: SNXMP5lHRNvthJ+gckltWTmLVGI=
+
+Name: content/addons4-overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VpQjsjnZfYJYd0VgovbCzA==
+SHA1-Digest: qyCIm4sTkuTHd1JuIuKHLcDfufo=
+
+Name: content/addons4-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9pIICEipj/4hUYkhckzLMQ==
+SHA1-Digest: 2q+bxPJiQqsaj9xiRHhlNM5Bu7I=
+
+Name: content/addons4.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d2EQgvOAPXyNC94JIcO8LQ==
+SHA1-Digest: AO/xx8wRQmY9HZmvIaBwi3ddcy4=
+
+Name: content/bindings.xml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7xVLX9wEYB2X6MsvI0u20g==
+SHA1-Digest: iXzZvK1aYGIHAzj6IDQIX0C3750=
+
+Name: content/browser.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0U46RFScInIqJSADo1TBUw==
+SHA1-Digest: jaZalAfUxUzpONyIcMGvoDBJLnQ=
+
+Name: content/browser.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gVz6RmfQjWFODoNOgvypfw==
+SHA1-Digest: VZexH0SRO/7AXg2F12VksVT7L6c=
+
+Name: content/closewindow.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X/5hmOGcudXAb/8OO0E/UQ==
+SHA1-Digest: jnMbQniTe57SuLkkaf59uCjXgeA=
+
+Name: content/config.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iLllg827DmfFvS9UAUx/OQ==
+SHA1-Digest: RAL7MHsG4/UN8qYiLJpVkRzLAO4=
+
+Name: content/install.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CH5AiELZSbXRhU0B28wsXA==
+SHA1-Digest: Zee62fU57GWmMUI2pLQe3dTZXDw=
+
+Name: content/install.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2DbW7CnonCV8ue14Z5jAgw==
+SHA1-Digest: rO6T2afXO224Au+8wit4B45Ppwg=
+
+Name: content/menucommander.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jOvMF3ottCm1A11bJuzmcw==
+SHA1-Digest: yGeZo1jpb9tpfflO3gIPhpaPCTk=
+
+Name: content/newscript.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qk9ODGgtZ8xO5pB6NQ3u8w==
+SHA1-Digest: W0wQ8p1F+McAULB6rrXYzk5+YbA=
+
+Name: content/newscript.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Xn2RfA2aHntkNcTGlTG4iQ==
+SHA1-Digest: 05TkJ3JLNfnE73Hu5hnof/+JXDE=
+
+Name: content/options.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +EO31WvHjGadSGr8VlYIYQ==
+SHA1-Digest: Wtxt6p7kj5qd6EgWBe/7eDvFRxs=
+
+Name: content/options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8bRFXs3coPafBG1L6VKATw==
+SHA1-Digest: HnQXyLUkqZe0IUbgjMdG/UkVbys=
+
+Name: content/scratchpad-overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aMwz3kdWYX/Tgs2xT/uXnQ==
+SHA1-Digest: fRkP0SRdpH0y0YT5kwohz8Afj3M=
+
+Name: content/scratchpad-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3G44W2cf82aQD6vbfK6yfA==
+SHA1-Digest: SdEnA7Yty4dtLv9ajIMiuEpvRTc=
+
+Name: content/scriptprefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cjol52BoNpPOYnZ9l50XiQ==
+SHA1-Digest: D7aqK0xuATGTQKp+3i6m7yY1oxo=
+
+Name: content/scriptprefs.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JWS/zhQ9ahkObs5JiOBy4Q==
+SHA1-Digest: IMPQT8ykUKRxNtk+1rYRKpzVJ+w=
+
+Name: content/third-party/addons4.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q2/Jdx8/0gBRr6Wjc52e3w==
+SHA1-Digest: 4O5vdt+8GT8DLk5dHsRpY6YYY+E=
+
+Name: content/third-party/mpl-utils.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sCNnSapGdpWZmZnF93Ymyw==
+SHA1-Digest: ULCuFPUYg78nLnwiITaJ7aJTohs=
+
+Name: defaults/preferences/greasemonkey.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gT9ua/6/U8zPbuNPs/+Syg==
+SHA1-Digest: SACmnOqRwSrii/cZWjEUzLu1Ah0=
+
+Name: locale/ar/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TxIUYjYA3WeW6vKcQtlEBQ==
+SHA1-Digest: I6vVcnP9XZE0mPSBzlBAJNIw9dc=
+
+Name: locale/ar/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bAI930iOxygR8tMHGecYbQ==
+SHA1-Digest: XqjkLHuA+rrj6MRMKgx8yubMk+E=
+
+Name: locale/ar/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: if2yF8gPyrBya34dBflm3Q==
+SHA1-Digest: v7u7RVcTLqBI+RJ3+KbS/tY7hok=
+
+Name: locale/ar/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wkBSEbbOXIrSZp6kRUaemg==
+SHA1-Digest: anu5yUsfHL/YvxTPOnWz25jL3IY=
+
+Name: locale/ar/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xtC9eX/004Lz7v2kPjJsUA==
+SHA1-Digest: zqBi8t9HZAD4NooSGxWUvBM/vIo=
+
+Name: locale/ar/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2VtxaYHpbzflfHTC7QaB/A==
+SHA1-Digest: LyOOwakXAUGqAv+UgOtESLCImBI=
+
+Name: locale/ca/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zxtMvyZmZT+Z88hjtIH/ww==
+SHA1-Digest: w6BgopzXc3IemDvLzxQGXJkYsEI=
+
+Name: locale/ca/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tJ91hnQ+cyGb1y1RatuP2w==
+SHA1-Digest: kxs+khXj2ysiIlvM9f/R6+zp77E=
+
+Name: locale/ca/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QO77IcIp6P1JHQY1fVs5Ew==
+SHA1-Digest: YZ+Ba6HPu4LQJk2dVpQSz4hB6uY=
+
+Name: locale/ca/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bTuz0YDDXYTkJBcx0X8Dfg==
+SHA1-Digest: p7TObSxotHxdd2fZTBYL0qCxeC4=
+
+Name: locale/ca/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KSksnzmRbzuqrXbyhP7ylg==
+SHA1-Digest: lJu2j66HJ6s2K5XuS99xip+LaB4=
+
+Name: locale/ca/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X5W86gzThk+DdVfdGWZArQ==
+SHA1-Digest: tBKwbr7s4dAsTU5Q+p7YHb82Soc=
+
+Name: locale/cs/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eRmSTKCbhdgALGkc3d5pmg==
+SHA1-Digest: jp/2ToQ3pHQb/TSlHRGXDQ2AieY=
+
+Name: locale/cs/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4+NrMaxxfTzUqAJ+6hPIjA==
+SHA1-Digest: 6JKPrf5eVuWlFjeS/L1iBsd+zLc=
+
+Name: locale/cs/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NrRn0hrJJjUdBaQcAw3UXA==
+SHA1-Digest: 4FLh90e6O26FWdwQi0zhdI87eV0=
+
+Name: locale/cs/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: F0QvTRXzaLuW+ID/CMCR0g==
+SHA1-Digest: PcI+u0a44UYRNMMT6zN+DmJQrlc=
+
+Name: locale/cs/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zfO/H7M7ZjoFg66HMPG+6g==
+SHA1-Digest: pdoXC1lNzB0AVH9Y6tgEQhgPFRw=
+
+Name: locale/cs/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ddpBZYCOLwHBNzNGNl0RVw==
+SHA1-Digest: bFlnpjNVq/9cihLvQcnoWAmrpqg=
+
+Name: locale/da/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q0zOih2R/d+YhEzzb4I3Sg==
+SHA1-Digest: R1QDGqYOpMh+QmJ0B96u7M3STsg=
+
+Name: locale/da/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WN/JEZ8/b7TmHaKmMOhC5Q==
+SHA1-Digest: JTlMJomT4tZy7HA3h663JBHiLoQ=
+
+Name: locale/da/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NWce+CtVkZ5auFUh7qkwAA==
+SHA1-Digest: 1tsDIJZBoXpQKeoUxv0LHN8226Y=
+
+Name: locale/da/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lhJhiz0nntXkppJiJ4NIWQ==
+SHA1-Digest: 3F5XKBacrl9Ir4kCx7pvKtge4po=
+
+Name: locale/da/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5XXdg3m+owVPv6v15OUWmw==
+SHA1-Digest: wNYSNQYZj8lczUFNP/d+fklrjUs=
+
+Name: locale/da/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xoJp/nUVednVjzODHY36Kg==
+SHA1-Digest: aF9PKb3bOxkaykJWInP/BQGN1fM=
+
+Name: locale/de/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1sBfgkXUhN0Voe4h7kK3Nw==
+SHA1-Digest: UgxP0wL6B/9JCaM0VCbngle0Ufo=
+
+Name: locale/de/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bEuM+MFGnNvEDRwsnfKMTg==
+SHA1-Digest: F+72aAAkgVD+2ns0lip3fCdiR+E=
+
+Name: locale/de/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1kZJ36tXA1g56hSJSBTfZg==
+SHA1-Digest: StK5OlrxApMKwz5z10y/wnrdSXw=
+
+Name: locale/de/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZupOXND1DsdNBL73E1k8xg==
+SHA1-Digest: kZuNZrbg25vQIlc+iVudY1WZ/xc=
+
+Name: locale/de/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qn6lrwz+Xz7JrEQXpR4T6w==
+SHA1-Digest: 4fA4AcgeSreyw5a8KJpQ3MecRZQ=
+
+Name: locale/de/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: s424ckXJjdMD4MkXI8GI2g==
+SHA1-Digest: mZ9Ye0XRXRrrfJeFl2U86t2OFC0=
+
+Name: locale/el/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QUtenYfBhPSRQsMrUpmoJg==
+SHA1-Digest: g9OaZ6RTCtqrOI0P3vS89/nojsk=
+
+Name: locale/el/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NugshHbRlxR5YjE1pq5VMA==
+SHA1-Digest: p5uTZRqjBmaJ0XnZyc/M96uV2nU=
+
+Name: locale/el/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kYt7fqDnIBn0f1Yt1LwtHQ==
+SHA1-Digest: PT/8ymU2iB3rT87SzEpkPvpm/fw=
+
+Name: locale/el/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MOFDvw3RsKz4qY76Y5WVwQ==
+SHA1-Digest: KnHhVUI8AjFQgvTku/KYE/9puFE=
+
+Name: locale/el/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EpdWqMnxMKkuR+bQ3utSyw==
+SHA1-Digest: hrvSH23vWEC6m/iw0ainqJVl3Wo=
+
+Name: locale/el/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PbFl1QGu92vVr4UZ0wLnPw==
+SHA1-Digest: v583mygFsQ2s3TrOPnST0ODFMFc=
+
+Name: locale/en-US/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zxtMvyZmZT+Z88hjtIH/ww==
+SHA1-Digest: w6BgopzXc3IemDvLzxQGXJkYsEI=
+
+Name: locale/en-US/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8+2JQh5P04tg/gySkDVrZg==
+SHA1-Digest: WPpn33vB8wZGLJwBSszv/LaB1lk=
+
+Name: locale/en-US/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +xjxnJ/ZqhUurnsxWaVqqQ==
+SHA1-Digest: YUqIdWLfhjqcBgjNjibxpuGDBso=
+
+Name: locale/en-US/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNV2sV1KP05nrskTrQjZYQ==
+SHA1-Digest: EzKUISIAnxjjUFzFnadpnKhBHeY=
+
+Name: locale/en-US/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KSksnzmRbzuqrXbyhP7ylg==
+SHA1-Digest: lJu2j66HJ6s2K5XuS99xip+LaB4=
+
+Name: locale/en-US/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X5W86gzThk+DdVfdGWZArQ==
+SHA1-Digest: tBKwbr7s4dAsTU5Q+p7YHb82Soc=
+
+Name: locale/es-AR/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +TUh2yu3f2RwB3Jbd3KIlw==
+SHA1-Digest: kIOB2ei0ziakTtv2uW3Ci+uMhvk=
+
+Name: locale/es-AR/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZE4ymVR8j4otPhJXyokRMw==
+SHA1-Digest: m2PVKnSifxgJ9stoxu8LLJ/6fOU=
+
+Name: locale/es-AR/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OSdiPLzNacFTJCKyPENA2Q==
+SHA1-Digest: e8wamiXU7MbZz8i+ofrEBHvLZcA=
+
+Name: locale/es-AR/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNV2sV1KP05nrskTrQjZYQ==
+SHA1-Digest: EzKUISIAnxjjUFzFnadpnKhBHeY=
+
+Name: locale/es-AR/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6yKikkdcrnT0k1AnlFg7EA==
+SHA1-Digest: /N4V/vM6tV0IMhDg/z0rOcu/bg4=
+
+Name: locale/es-AR/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SIfdfdEwzqZvkPZXis43vw==
+SHA1-Digest: 3vxTVVCcpCRyD0Mx7Hz69vj1Bh0=
+
+Name: locale/es-CL/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VwB10x7AHmAaiuHxVYM07w==
+SHA1-Digest: zpjj6GmK0FOEUZKDqpYhgpmUckY=
+
+Name: locale/es-CL/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5eqr1+0YdiIGb4zD1mkUBA==
+SHA1-Digest: aebOHjozhZHD3Y110zJ5kzIwsEU=
+
+Name: locale/es-CL/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gJzlb1LzkHuqir27u42S9Q==
+SHA1-Digest: 99FgOXC0+0A3UD9qzFxnyHsRcYk=
+
+Name: locale/es-CL/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SzEDOreX2EKdP+DNuXKzMQ==
+SHA1-Digest: af6F2hqmyUsYSMIBa6ValJAu9gI=
+
+Name: locale/es-CL/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ntW0yTPesPwFxwnql5gu8g==
+SHA1-Digest: +knT+NfwM3GLW1clbtiFFWF4Y70=
+
+Name: locale/es-CL/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DxpdL5hxkwKZVXKkyZKBNQ==
+SHA1-Digest: vd/toKFzJNM++M1Q1mabU8V/kKo=
+
+Name: locale/es-ES/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: le96VTOMPkmELia4E2niDw==
+SHA1-Digest: sXyVhPq1RH4WJoN+4dG3xuJPDTo=
+
+Name: locale/es-ES/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eHl9IHnkQ47avPVZPIKjRQ==
+SHA1-Digest: JeiLjwv/Detr6gdowgzBV5GavFI=
+
+Name: locale/es-ES/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QO77IcIp6P1JHQY1fVs5Ew==
+SHA1-Digest: YZ+Ba6HPu4LQJk2dVpQSz4hB6uY=
+
+Name: locale/es-ES/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BBwB1LnI0ksnzsdefYvf+w==
+SHA1-Digest: laEhLGrXB77JvfEMKYzZX6Nth6g=
+
+Name: locale/es-ES/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KSksnzmRbzuqrXbyhP7ylg==
+SHA1-Digest: lJu2j66HJ6s2K5XuS99xip+LaB4=
+
+Name: locale/es-ES/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X5W86gzThk+DdVfdGWZArQ==
+SHA1-Digest: tBKwbr7s4dAsTU5Q+p7YHb82Soc=
+
+Name: locale/es-MX/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rySDvvo5yK5DCSK8Tjse1w==
+SHA1-Digest: QIqEy5wpPz1sjgH5wcqr3C5PPNw=
+
+Name: locale/es-MX/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fkCmKExF2/mN8XQsObg7bA==
+SHA1-Digest: pEBVJaSWP/SjGZqGbscube2coYw=
+
+Name: locale/es-MX/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6qafREJvZp4mbtqL4kDTRg==
+SHA1-Digest: 5xRwxk956xZx8ftIaQ2+5xpVitw=
+
+Name: locale/es-MX/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNV2sV1KP05nrskTrQjZYQ==
+SHA1-Digest: EzKUISIAnxjjUFzFnadpnKhBHeY=
+
+Name: locale/es-MX/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p+uH2C5aFg1mbympqlfGqA==
+SHA1-Digest: XIioEBn9IlxqmHBWmLlElXZrCUo=
+
+Name: locale/es-MX/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gHSTmtupTaRQYuA5DF1g/g==
+SHA1-Digest: +1FLHWDK0EMBK0pijO6BmUPUplE=
+
+Name: locale/et/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1d+gUlbcZ2ShZELDkh2PGg==
+SHA1-Digest: VwhPoBzLv9k3DFqacihmwKmHLsA=
+
+Name: locale/et/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8+2JQh5P04tg/gySkDVrZg==
+SHA1-Digest: WPpn33vB8wZGLJwBSszv/LaB1lk=
+
+Name: locale/et/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nOCupZLCiO1G6VJqd7wwuQ==
+SHA1-Digest: NmeVxLMOsd9sa93mGvg0KnkNhww=
+
+Name: locale/et/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNV2sV1KP05nrskTrQjZYQ==
+SHA1-Digest: EzKUISIAnxjjUFzFnadpnKhBHeY=
+
+Name: locale/et/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l5lMk+6e/l0iUSEqyqaX9A==
+SHA1-Digest: vSv1uqjwbPOygLUYIdbtbAViUn0=
+
+Name: locale/et/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V9l+QrjZIgLi79vkc5R9yQ==
+SHA1-Digest: yyBDVhDu4+DYtGeWqonnJpG1HxU=
+
+Name: locale/fa/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YDlfI0TV/sGsbe1LIA8lqA==
+SHA1-Digest: YxecEWt7naixNqYCNQowsimDjGc=
+
+Name: locale/fa/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: s6gM468SpAO13dK9wLD/GA==
+SHA1-Digest: tozO7Jthm9hcBZ8HIk9bTFIRnKo=
+
+Name: locale/fa/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5avu0NiGAvFOuTH4OM08vA==
+SHA1-Digest: 6TdHx2csCXAbGGT/naB/AE2Oqi8=
+
+Name: locale/fa/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BpDmorYvldnmKsjAC/u5/A==
+SHA1-Digest: rFyr8lqLIgUcvbYTVwq7emnCPlQ=
+
+Name: locale/fa/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r3StYGLU3pa+hz3czpgwNg==
+SHA1-Digest: Aq3Ry6SOvwpbFd6YTcBotsrZAeQ=
+
+Name: locale/fa/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Z27B4PI/Q9fifOLbCxGTyw==
+SHA1-Digest: wDla5PSnWvqmR5L4+eT+zVvyj5o=
+
+Name: locale/fi/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 460sA8+BM+dLD4PjO6vCoQ==
+SHA1-Digest: 6lTl1p1ixeawKgFmMQTZL2nZdFY=
+
+Name: locale/fi/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cj1o2RrrW/A8veUjb+ywDg==
+SHA1-Digest: XCdqO23y7b+AuNfUFhS7lOiXxL4=
+
+Name: locale/fi/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CbRmCAntcYbDt/vfoI60bg==
+SHA1-Digest: i6WTsFPRG22Hll47UW/T93YZtJs=
+
+Name: locale/fi/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8DJofFxy9CMtD2ZX/N7rdQ==
+SHA1-Digest: fiEoVTU/kbwNDmUtc6By/MQkkNI=
+
+Name: locale/fi/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NjJBNZqg3aDVRKweyjXGLQ==
+SHA1-Digest: pKkys/9DpPV5yh2M0TOMnw7CH6U=
+
+Name: locale/fi/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NuY63c0SXSle2dFiMhDCJw==
+SHA1-Digest: 1wH7y7GWSry5wa2QWBfHfDOgQnk=
+
+Name: locale/fr/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: D9X0xyhnaST5WkxRufzMyQ==
+SHA1-Digest: MnO90Cuyt+jTC+Q59NfEuxT2YKo=
+
+Name: locale/fr/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UKPy8Kyu8AFInKoiyuD5tw==
+SHA1-Digest: ISORPkbIM4hW20Jsj6NMnv7L2fQ=
+
+Name: locale/fr/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QnfLFdk1V7wIk8baIs3MWQ==
+SHA1-Digest: UIDXfzzthtWcJ/khakDxVcXMFW8=
+
+Name: locale/fr/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: K1hGgPFu2mZGtlPwz4Te9A==
+SHA1-Digest: 6ni0BciXgEZWG5kwE4rFZMA87HM=
+
+Name: locale/fr/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aYOsHWoaF6Vd5SqW5NK1Vw==
+SHA1-Digest: PYsfds0tecXtlxcnALvSirE7Bzo=
+
+Name: locale/fr/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ptKSSLvXgOnhr+IpFxR2dw==
+SHA1-Digest: htgmp7sEoQIkkUsjduHABhdZPlA=
+
+Name: locale/gl/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: R8RJ/l6lSyWp4km01DQNsw==
+SHA1-Digest: 8TBjbg/FGbTuGlhiCh7H2E3xxX4=
+
+Name: locale/gl/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7JOZmKVYwZnyOcCdjc8MLw==
+SHA1-Digest: O93Ps+rpbzBfsOf/WU1qLpUefJQ=
+
+Name: locale/gl/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +JSn/SfwacTNkjtdRR6XKA==
+SHA1-Digest: mpjHX68L3nM1XleESw1DPXFGS8c=
+
+Name: locale/gl/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9Eet3pXShvH33oDhYebmqw==
+SHA1-Digest: 1pJ5/5Go8itf0OK7t0CL0F5todA=
+
+Name: locale/gl/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5rpMDCkYEG4EBHiZjTJUgQ==
+SHA1-Digest: qqMfw4ZiHB2AcH979BYd7lf9/Es=
+
+Name: locale/gl/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2/3J2nNuSw8x+k7SI/b3wg==
+SHA1-Digest: +UuoBPmmGKkTA9uaaN6TuLm5YSY=
+
+Name: locale/he/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 48pgQADrAULY72Kf+RlHHg==
+SHA1-Digest: TDKXuWgTWDyJ7Yzwdv1MFC53RU4=
+
+Name: locale/he/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fGsaWiMC1L4XeGXi9Y6/Lg==
+SHA1-Digest: NVilLWRqUiqK6qs99jv6ETLvKOU=
+
+Name: locale/he/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vuTYs0sHsP3brMylBrWv2w==
+SHA1-Digest: MCdiIi0yrKwJw1pyZpPNifkZfHA=
+
+Name: locale/he/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qb5kygK4Lz8CcegLuPfVXQ==
+SHA1-Digest: nezkpjphmNCudy3M29IoaIRq5pU=
+
+Name: locale/he/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dxgEv2M/5/chfLK+428zag==
+SHA1-Digest: GSyZpB8tw3bGfQq3lrbHXpT6JnE=
+
+Name: locale/he/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ctscmUgA5Z07VtEJJubkXA==
+SHA1-Digest: 4N7guXQpbWGZIAjyHk0WTZ1IJ9Q=
+
+Name: locale/hu/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1PQph+9lrZWAa1WLspSrzQ==
+SHA1-Digest: tGvMH/Ym3IzaltRtO2zHcWTXj48=
+
+Name: locale/hu/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BgdxuDmpBHaxwymOuowaHg==
+SHA1-Digest: oTi9uB/uPCSYzsEqLLg4kcwsBjY=
+
+Name: locale/hu/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LvqrXSuB7yCX5yBqQke1pA==
+SHA1-Digest: ZYCW5bepWc/ax4wYdISIqosampM=
+
+Name: locale/hu/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jSeP+ZtZZM6ZaKh1yzLPIA==
+SHA1-Digest: J6gc4c6FVsLzvHbQ1LvhZfSpgaQ=
+
+Name: locale/hu/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EEOarZRszm2sGxyzndK7Eg==
+SHA1-Digest: HByqWQns9loKuCO7JF3hfY0VC/c=
+
+Name: locale/hu/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oyaEb0DcuSx2GRemCRmk9g==
+SHA1-Digest: x7Z5h+LED7Gl14gFM4YTAJRxhDk=
+
+Name: locale/it/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zxtMvyZmZT+Z88hjtIH/ww==
+SHA1-Digest: w6BgopzXc3IemDvLzxQGXJkYsEI=
+
+Name: locale/it/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8+2JQh5P04tg/gySkDVrZg==
+SHA1-Digest: WPpn33vB8wZGLJwBSszv/LaB1lk=
+
+Name: locale/it/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9JQ8q/DIZeyith3xozvrFw==
+SHA1-Digest: av7GERHkvBgWs6KZVyV0jxIP6io=
+
+Name: locale/it/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ArS3pPwWW4tzxW22w1tc4w==
+SHA1-Digest: Gce67i2htai2wUiUD50w+AY9b2s=
+
+Name: locale/it/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yUuEiYFLXLVbrlkOYUDC5Q==
+SHA1-Digest: k65bBQ71vEBmiHZOvZSfsMgtb2M=
+
+Name: locale/it/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f++/eEoZsAeoIz8bffoTQA==
+SHA1-Digest: ZPVy+e2HS4XpRnCRPDvLeZ1k0PU=
+
+Name: locale/ja/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gNPvzXjUZMPPvrL61quKHA==
+SHA1-Digest: 7fI11wFb+onAaLdUyPy6QrHeykE=
+
+Name: locale/ja/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yY8fd4c9+VjZyXbHoE9FGQ==
+SHA1-Digest: tU6a3dGwx88wwTGMJekMmHj61tQ=
+
+Name: locale/ja/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q+Qe4ZLRPLugE9SDw0mYwQ==
+SHA1-Digest: ntzH23C6dsR0zMvMvUbdrGMnEfo=
+
+Name: locale/ja/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 16hAjpj61ENfo+HAZak/SQ==
+SHA1-Digest: MHy/oVNh1pf9Bnkpm9+XFHvd96U=
+
+Name: locale/ja/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0zzTVPxYBUsdqeW1+M7OhA==
+SHA1-Digest: pHkgDYUphHFO8O//PuR5TXsfzS8=
+
+Name: locale/ja/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BYlKfdjobTaKHmattpeNSg==
+SHA1-Digest: oMEujVazMU1Lqou/nhXDSRxbCrY=
+
+Name: locale/ko/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCNl3HRyyhQACZtaFqRL/A==
+SHA1-Digest: +NlucvXo9aCaKtsey5EzKQL8Qi4=
+
+Name: locale/ko/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h77xc2FlD1zy5sAbTPVAAg==
+SHA1-Digest: lMR8h9e6P/INI1doluxacciJ31k=
+
+Name: locale/ko/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: evLI0c4N3Yc3UyKSL3REYg==
+SHA1-Digest: r/4QkN5P2M71SU+L/sAJduglkro=
+
+Name: locale/ko/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YmTCeVQjuUL/KBDHKLvcwA==
+SHA1-Digest: b2BCHMq+d426uEKY17/NCLmAL1k=
+
+Name: locale/ko/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7+HERbiqcY+oF7rwW2btNg==
+SHA1-Digest: AqVJa8JBe+3oPTHLfXWqnQfjgFU=
+
+Name: locale/ko/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L6iz9iWBzLH3FPtT0z86Wg==
+SHA1-Digest: P9aiXTr56CFiLhUZZ+f3b+tAXMU=
+
+Name: locale/lt/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sgef6JxgY8TwLWmXsb3WVA==
+SHA1-Digest: WLr18vWqv3VaEisMPFlFdUmuaZY=
+
+Name: locale/lt/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ciqFI2RUpZhiGUgzpxeHeQ==
+SHA1-Digest: EH/KExIGTY8c1pcT5ORZPLharv8=
+
+Name: locale/lt/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: x+W9HDMzfN8+7UfCS6yl8A==
+SHA1-Digest: p3N7ZEcn3FqaqPJjWaW40c0E5gg=
+
+Name: locale/lt/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VvffqY1mShDI+eN1sQzjyg==
+SHA1-Digest: JF65RyafVqE0Vqp5SDqNr+Wgz8Y=
+
+Name: locale/lt/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GSYieBuqiZKjVpXAskrY9A==
+SHA1-Digest: +dpxz9w2MVUOPoIiMKcF6OaMtlg=
+
+Name: locale/lt/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SFnoYCqgQf8wAAFBfN1bDQ==
+SHA1-Digest: oNFXaIPZcjzz7mXD7//4b0drEIo=
+
+Name: locale/nl/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZpaLhTTWAHCYQgl728Z1zQ==
+SHA1-Digest: m338OplHBRJZ4bhw1lU+EV+RyVY=
+
+Name: locale/nl/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kOtHiMpMvyKyvbDkIvHmLA==
+SHA1-Digest: ArPAeS7dbHzEledUiectjloGTmk=
+
+Name: locale/nl/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: o99KKpBHlfsnTRLt1Tr+bQ==
+SHA1-Digest: +5lqnb4zX3cbXYoxafOAESL4CTY=
+
+Name: locale/nl/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vqMo8bK86Ljp1098pS2kMw==
+SHA1-Digest: 2JU7wbo5EAqykKPAfv3ScHqafTw=
+
+Name: locale/nl/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qGUe0Jc5MT1p4YmW7CPrTw==
+SHA1-Digest: ALcoYKDqlIVKxapgM/AW0oWy4jM=
+
+Name: locale/nl/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1QJ2iLnWN6y9zVYqgQUaUw==
+SHA1-Digest: ljeN6akbwpkcquJCf6z81OD88KU=
+
+Name: locale/pl/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rPLwTwnF8dPy6y82sUzuSQ==
+SHA1-Digest: WZqk+n8ZKcoudnJ/SqJHDFw6M/A=
+
+Name: locale/pl/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u3jitB11DO+OB/VO7J1Lcw==
+SHA1-Digest: lM6IP36BXp1aIYvX6J1MOlcehrM=
+
+Name: locale/pl/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mIpZ6JFDs2SN/LlHyzKzzw==
+SHA1-Digest: e7OCEaEZ78I3vwWtKN8IA4gVAPY=
+
+Name: locale/pl/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IXLkNV0RxQztIZW1nA0+7Q==
+SHA1-Digest: RbIF8/Sl94M/y8tcUsngtecRTbI=
+
+Name: locale/pl/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0rueo0/lG2Kz8bLJkuyZ6w==
+SHA1-Digest: tvjGLAGaS/bU3cCrEwtPMe3pd9g=
+
+Name: locale/pl/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xYQJEWr3HEGbKmWJUbsiRQ==
+SHA1-Digest: byPSA7qKD/nFA7jLe5sRhwTgJjA=
+
+Name: locale/pt-BR/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: w8xYUT5zh6kFGW0R84zdDw==
+SHA1-Digest: WGgpztzDfXpe9//VF7/k4IzbFm0=
+
+Name: locale/pt-BR/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /raDKKMWcxOKBp53UNXg7g==
+SHA1-Digest: xxC5B8G9D8lnUw6aeizD59iJbaQ=
+
+Name: locale/pt-BR/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7WlzdHfuzrQ3rLCESwmmeQ==
+SHA1-Digest: /A21PGA53Xy4bZnfNG8ShojumkA=
+
+Name: locale/pt-BR/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qHdOlYK9PTT7kPfK7BPykg==
+SHA1-Digest: mx3G1hvhYKJcGqgPy9/j+rUeVLU=
+
+Name: locale/pt-BR/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yF/xnlgsdA0W8exGZP5i+g==
+SHA1-Digest: ThToJDtBbd5/9cm5WC3T0E4/0C8=
+
+Name: locale/pt-BR/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: R8Y75n1QH3l8bPdBbK9qIw==
+SHA1-Digest: VkH2b7TDWbKrkN3L+ZrxM2d63ok=
+
+Name: locale/ro/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6bQL+ZY4WX5/CTHfyUiN5Q==
+SHA1-Digest: YbNSsp3QhMdJTlatUQUbBYXDfGY=
+
+Name: locale/ro/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y/sTKspcQNcjrY3RBJk+IA==
+SHA1-Digest: CqlDUHQNy2vhJu8niAe9+aOpcxs=
+
+Name: locale/ro/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M0VNRFMgu6lf8z8bodlM1w==
+SHA1-Digest: exnj3Tax0tg3dtCHuC9nEKboyBk=
+
+Name: locale/ro/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JjjFTKBKJXzXvdn6MSM7aQ==
+SHA1-Digest: i+3JrFSTBJthygJ8SgH7dvIQ/W0=
+
+Name: locale/ro/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eZERfmnS7/4kI/4CUT/Whw==
+SHA1-Digest: 7nIbj7CoItrs19zyV0+Kmq4qDas=
+
+Name: locale/ro/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jOO7GQolZBMV3uQR0NHv/g==
+SHA1-Digest: Muu8gwvJZEg7Kt6KxwJOtaWvXiE=
+
+Name: locale/ru/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jznegdun9aXFqQboml1zpw==
+SHA1-Digest: psKK0CAtC3RGmVz9a09G3AcBxIc=
+
+Name: locale/ru/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vrUHvLPegGUyB2cJPc83bw==
+SHA1-Digest: oR4lUrpj0nBaikPn9vYhxHQ1X6k=
+
+Name: locale/ru/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kVuwI6kX+qxOPEv3HLYteQ==
+SHA1-Digest: XSKlQu04DIMLMRDvG9JEKHeiolU=
+
+Name: locale/ru/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNV2sV1KP05nrskTrQjZYQ==
+SHA1-Digest: EzKUISIAnxjjUFzFnadpnKhBHeY=
+
+Name: locale/ru/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2DSwN1gAxfioraDsvzDoFg==
+SHA1-Digest: T73UHuedkJBMoYYNPtc2rMBpXi8=
+
+Name: locale/ru/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eyiaf9hQ4nEJHGUQzBNNvQ==
+SHA1-Digest: pNVG5kuj9tOlz8TznT/217gxORc=
+
+Name: locale/si/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eSmPe6wOtuNEbceD6WeK8A==
+SHA1-Digest: 9Kv/wkbSy9D6oMmBikfQ0cxjejQ=
+
+Name: locale/si/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GUkwX5TWUuSUfK5yI7JN/w==
+SHA1-Digest: 4Qo/CLlWFC4yUnJFcLaEOQuCd5w=
+
+Name: locale/si/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q9orSUCEuNFLO+P9Bm0rAQ==
+SHA1-Digest: ddmBoWkCO7xPAB+F/HJD7UFPKdk=
+
+Name: locale/si/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNV2sV1KP05nrskTrQjZYQ==
+SHA1-Digest: EzKUISIAnxjjUFzFnadpnKhBHeY=
+
+Name: locale/si/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gxlGcSGFp6HV60a3/P+Z5w==
+SHA1-Digest: sglyKnj9o2EBH+BzfrCRRXN+4Dw=
+
+Name: locale/si/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0HhojQlaek7w8U0UoJ22rA==
+SHA1-Digest: 57TF6nz3RLSz222MAh5pyP+9SIs=
+
+Name: locale/sk/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OheSuzhw2Bkogn+8dBWTzw==
+SHA1-Digest: VMxEPj07dvkPHDEA0PFiJNlQ5dA=
+
+Name: locale/sk/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8rP8wpKZpKUfLb+U6dUcSQ==
+SHA1-Digest: yEr95XiKc32G5pO6Ix4wky0wHhQ=
+
+Name: locale/sk/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EFURdqhce97vHYOxvdQsYg==
+SHA1-Digest: gVOELRzMbiwAS9+T/iNRc1V7YjE=
+
+Name: locale/sk/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XHgmGDWn1EQU03XDT1aaIw==
+SHA1-Digest: DWZnqMHqynOiEMQ+oM+zvoJOOFg=
+
+Name: locale/sk/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ajWgTuxzFrF0Lq6w4tJpzw==
+SHA1-Digest: zih8PRfVg4rakuvDVSIE0NuJGUs=
+
+Name: locale/sk/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ihlOzONJw46U987qMDF88w==
+SHA1-Digest: l+JBI1yVsMmymOUo4lDGr8r5WXE=
+
+Name: locale/sr/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yrFTAMOCA5vTm8JqJhO+8w==
+SHA1-Digest: +m1tilRW9yj1MYzRPmHZEf80xkA=
+
+Name: locale/sr/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +4JmWUcmMd6karGyd5NR5A==
+SHA1-Digest: TKkzYvyzwtYxJFZ/6RxxgHPMays=
+
+Name: locale/sr/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wg5+L1sZqP3hrZGvrynn1g==
+SHA1-Digest: uqkfSNEf1zn4lEY/hJYG8gh9y3c=
+
+Name: locale/sr/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2N6njdgomkKvLbnvSXJ52w==
+SHA1-Digest: 46I85owHue9m/bnDny20YWZW4v0=
+
+Name: locale/sr/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Em+4U/wJLJtUwqbs//FLTA==
+SHA1-Digest: BbLRATAjms+mP9vJ3YTzmjGxxCg=
+
+Name: locale/sr/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nDZs/NsHzlLbvy8rxH+4QQ==
+SHA1-Digest: JrBZ1tLnJNGrEIjcvTid+eXmxyU=
+
+Name: locale/sv-SE/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cvwSdMwUzosp/UN6e3Y0yQ==
+SHA1-Digest: 9LPdIgiqwPOWPxKrp/R5e9AajwE=
+
+Name: locale/sv-SE/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gQwwKi7ZJxfuqbHviW4Dww==
+SHA1-Digest: NkuEmqLSD4pQrYdThwVGGobm9/4=
+
+Name: locale/sv-SE/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qgtvXYdQdafFhW1+snLyIQ==
+SHA1-Digest: Ze95IgkHqnR4V7xMiBYqbTr1nVE=
+
+Name: locale/sv-SE/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z4csl79DPC1zkwDThx01qA==
+SHA1-Digest: 4RvvTaCumS41460+N2fE2Uv9qN8=
+
+Name: locale/sv-SE/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V2NhPPUuroPUHJzcBLspoA==
+SHA1-Digest: sBRQg0iG9o8Gx5nioWt/RPx1Cc0=
+
+Name: locale/sv-SE/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KyvgSRWH9WuKSPGrl68Z1Q==
+SHA1-Digest: Noy6wnkcVPH/dpk1VTmzPlitxB0=
+
+Name: locale/tr/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sYlxXd/uzIheG6AC+QwTNg==
+SHA1-Digest: 6LnMtFLkYBTHLIQVfqNou8Oozsw=
+
+Name: locale/tr/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XTFxIeaYIaMHPIL5JHXJfg==
+SHA1-Digest: 4ppbmxat7HWcrTfxL8NjE6GkNjU=
+
+Name: locale/tr/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AfufCsp3Om7M0Sir31PbVg==
+SHA1-Digest: WB3RFF+SXifk6eOTz7E0ZW9gjJg=
+
+Name: locale/tr/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qiZP+wJhlPHBA2XDIYSoGA==
+SHA1-Digest: 2c5/JKKqiH+G2BZ1BuPDudv2Z/Q=
+
+Name: locale/tr/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OHsUMRNKSM5eMJQLljrGeg==
+SHA1-Digest: 1zHid5tXSGqkianz0u9XL9AeT6g=
+
+Name: locale/tr/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CE12AuBr+A6bOvGo/ngejA==
+SHA1-Digest: Jq+H2y4EUwhwqTvTzv6tHgxxMHA=
+
+Name: locale/uk/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: U8cJTb8OHr/CqrSEKQbTTA==
+SHA1-Digest: chifQMGzrp1Jp5a1dtmS0EiL1z4=
+
+Name: locale/uk/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ag+sPjWfanqIU3yVLZg3SQ==
+SHA1-Digest: 4BooVYjHuuxdaT9JabTqYCXpP4o=
+
+Name: locale/uk/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BeVvYWZNBMOnIqBb77CvxA==
+SHA1-Digest: EqtYfnGrxbTYGh1tWGpyVQ9ORQ8=
+
+Name: locale/uk/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cJI5Jc8HSd/RJX8pX4kq0A==
+SHA1-Digest: KF3ULOD74l/jPC4W2VeFHt15pyM=
+
+Name: locale/uk/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BrDkodguK0vJLQo4aGMQiQ==
+SHA1-Digest: gB5XAasyXTe2krlMsatd9+6nwM0=
+
+Name: locale/uk/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d1Em5dVtnkgO2SISImlQ3g==
+SHA1-Digest: yi/BSE5Ab+qqB9epdyQjAnle6QA=
+
+Name: locale/zh-CN/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DACTPY2Xs+LvwyBc/4KXtA==
+SHA1-Digest: 2aspmatzDS4Qjlxprn1N+za66O4=
+
+Name: locale/zh-CN/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VByW9GLp5Lc3RYw9n1r6ww==
+SHA1-Digest: 6rYMEDeTPREaJzzoSg7YjOOQKyI=
+
+Name: locale/zh-CN/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qzeid/Ig1pVV8a4euVmKeA==
+SHA1-Digest: iv1JEr38EpS3XKqougY14/MLe0E=
+
+Name: locale/zh-CN/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tWhJogp7aKJ6igNgWV+vSQ==
+SHA1-Digest: UyJR6u0i0zMORtMVvAYtckhGaAQ=
+
+Name: locale/zh-CN/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QAM+tTVVRs1O9SLcWlwx8g==
+SHA1-Digest: B1y58Y5iqV8yDTo1TZDz1rwsNqE=
+
+Name: locale/zh-CN/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: v8K931JYscU3E4ASDzhFKQ==
+SHA1-Digest: w0ygA4mfrf3GFr0TkKqEIoyoeTs=
+
+Name: locale/zh-TW/gm-addons.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wk5+LJR56BIk88/oGFmS5A==
+SHA1-Digest: olWwFvDZ3rbCbC/X5oP1ApZ2n3c=
+
+Name: locale/zh-TW/gm-addons.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5tmxC4nHr4slN0cpkhrgxA==
+SHA1-Digest: hyx8+riaCjyqj2oumwh/RFbLe8E=
+
+Name: locale/zh-TW/gm-browser.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xX/mgW8+osUzXOcmXqOneA==
+SHA1-Digest: sFqKHCEf3hRUAoOf30Kf1dwbUSs=
+
+Name: locale/zh-TW/gm-cludes.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: H87y3hzjXSXPSIJ/FtTikA==
+SHA1-Digest: jB+qZLflFdkgSHsNF+CEiKx9+8s=
+
+Name: locale/zh-TW/greasemonkey.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cZg74j0RtWKgbF54DNaVBw==
+SHA1-Digest: +/cs4np+NoSlwaIHxw7ILUe0rcI=
+
+Name: locale/zh-TW/greasemonkey.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 03tGbhPf5ABCInW3yXS0iA==
+SHA1-Digest: kPLH2PlkhNpfgxLIHX2GXmGtY1Q=
+
+Name: modules/addons4.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G830aPIKhwc0kPWyILf2Kw==
+SHA1-Digest: eegs/s4746OQ/Ak8sTBxBO2WBFw=
+
+Name: modules/constants.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: w54WTaU7q9npJzYzlMaWFw==
+SHA1-Digest: oI1mnAJYolOtYQXEB5bO+XY+qPI=
+
+Name: modules/GM_notification.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: S0eJqrFT7gkEVpIthR6Qug==
+SHA1-Digest: e3bhQQXy4nKFErlc20fKYNhZyKc=
+
+Name: modules/GM_setClipboard.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KTBlQehdEpylMRTdookMRA==
+SHA1-Digest: XFTwCL44nfn5DTeDYrGY00J5Rqc=
+
+Name: modules/miscapis.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l7l8u6X1hf5TsM3DA2V0Xg==
+SHA1-Digest: MhiNQEyZ9Gkj5090MEB+L2ALyiw=
+
+Name: modules/parseScript.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6X4F45FCOlszhETUx+s8sQ==
+SHA1-Digest: 0UDl0Mzh2oxS6exKtPOZHXyf6RE=
+
+Name: modules/prefmanager.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CY0uQ9xZowyGGuYyTXHtWg==
+SHA1-Digest: np12bO0g+pReImP7SUspyxN+x3k=
+
+Name: modules/remoteScript.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PeAP6zXbBwEOzC6SgcuZmQ==
+SHA1-Digest: sttY5OXiICoHdBC0RUGLxgKB6EA=
+
+Name: modules/script.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yZqiR0ETlGSakQzVv9pTdg==
+SHA1-Digest: 1mwZ7M+Lx0sBB41fZa58AaN6GT8=
+
+Name: modules/scriptDependency.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +FEzHBs/dagnETDomrQ30A==
+SHA1-Digest: WwyG1MHz6YLRebr2Tmjv72/THms=
+
+Name: modules/scriptIcon.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fSs2WUoSByIObzJApo9oKg==
+SHA1-Digest: GhSDc60mgmQvXaJfrwwGCJ1FzEg=
+
+Name: modules/scriptRequire.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KxE3+JA6wdX0Hkn4hgFnbQ==
+SHA1-Digest: BuIoFioafh2dmvOlzDgtlyiKIsc=
+
+Name: modules/scriptResource.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QrFXl2D4XAJ0u1CaaDOuVg==
+SHA1-Digest: pl7iZcPYzu+w3zGEkh+9k/CagvM=
+
+Name: modules/stats.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QTBT0HQHbXFvdykDUibNZw==
+SHA1-Digest: vby1K7MWJPTQ9jn3sfeOA8eoAfU=
+
+Name: modules/sync.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aJd2yFWSnjkgaZF5wNaI9Q==
+SHA1-Digest: Ix8ZrGKjtZ9frLZ+3MfHMNtau14=
+
+Name: modules/util.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gPxNxYbCi4pKHHCkm9xofQ==
+SHA1-Digest: R1h2Keci6xmxrRpAqUTsQ+QXoEA=
+
+Name: modules/xmlhttprequester.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: w5CVkanrDuwOacrVCNYatQ==
+SHA1-Digest: 0IdKHrlkGiK2ZOy5NUigZ0mInAY=
+
+Name: modules/third-party/convert2RegExp.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lOatMrsBaBw/pB5DamAXYA==
+SHA1-Digest: 0cY1tN+PkSb0vuXpWNsxUa0lDXg=
+
+Name: modules/third-party/droppedUrls.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dgiEJWcnRxlpaoklb8W/aA==
+SHA1-Digest: Rdp5ISTfYgZH9CwPOXnE+lkC0hI=
+
+Name: modules/third-party/getChromeWinForContentWin.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Vq8xDwOYFneQg/buD6t6Cg==
+SHA1-Digest: 80ikd26RdNDp6fWaAD5hhnfJ/ig=
+
+Name: modules/third-party/MatchPattern.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iY7ZhUezJSvJbdSfbjw0Dg==
+SHA1-Digest: TYkIb1rMZ96WRq3KUrsCLLz1/Ro=
+
+Name: modules/util/alert.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bwgNstnmtIoSnzKTm0tAlw==
+SHA1-Digest: J0A9TEBfgANL/ORJxTVysHf58iE=
+
+Name: modules/util/anonWrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nehChtBDuEpPE62NCyhhSw==
+SHA1-Digest: mXSBLPbU6pxgGigCJncPfCwSQz0=
+
+Name: modules/util/apiLeakCheck.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ujmdu30yajKA060DS2dmHQ==
+SHA1-Digest: t/Y2hLDETMh+R8Ks//feNbSMlPU=
+
+Name: modules/util/checkCoralCache.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wdVEF5JQjvMvjfGl673apQ==
+SHA1-Digest: qN4ygRf+5PO62tH+DkothsX6KLM=
+
+Name: modules/util/compareFirefoxVersion.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WcjuQTyd2+t5x/ee4kI/Ew==
+SHA1-Digest: eJYPuuovenYNTg8bGMEOvPbgFRw=
+
+Name: modules/util/emptyEl.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DSUHSnCrs3i8A6HwQhZLug==
+SHA1-Digest: JwbExfbFgFXEhzE3DCn433yftbc=
+
+Name: modules/util/enqueueRemoveFile.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kpsmp6k8rxS4C9jHtQ5u2g==
+SHA1-Digest: pQK/hOjtu9+uw3F6GtRy25+q2TM=
+
+Name: modules/util/getBinaryContents.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3hAeywEsslW1M79GlQ3KmQ==
+SHA1-Digest: qd20qHueiCj3/5kftmT7NvGk740=
+
+Name: modules/util/getBrowserWindow.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: F6RFxhbIbLYNsA+JJqihMg==
+SHA1-Digest: ecKal8bVx98O3ffU3Cdgq3iqdvU=
+
+Name: modules/util/getContents.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kZKX2PtJi7p3QIPQjER8/Q==
+SHA1-Digest: KOb7YkCydWF318HD0uhQ/sXFMIw=
+
+Name: modules/util/getEditor.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uwlRXlOHwQvuYWqMtgQF3w==
+SHA1-Digest: VEK6dog77uv56j/Fyg65jp+T8oA=
+
+Name: modules/util/getEnabled.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tVdvt9Iczbhk2oMx7VXhQQ==
+SHA1-Digest: RiNipMrztUwvvPm7AdxsGJ0BPbQ=
+
+Name: modules/util/getScriptSource.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BY26JLxso3Hcv+1+viOpQg==
+SHA1-Digest: uuvPsUY+jd/Nf1pTvybABXRmXr0=
+
+Name: modules/util/getService.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: O2QezarwZw9rR6ceHgiQ6A==
+SHA1-Digest: oSuOpYUI/LPUIasGs4g9VfxEhv8=
+
+Name: modules/util/getTempDir.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iQ6+5rDi5GhbwbUQuWdv3g==
+SHA1-Digest: Gra1ekVAX2TMrt9mba9URXhOAFw=
+
+Name: modules/util/getTempFile.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dfs/ruVoc17tCQxXe7Y7Zw==
+SHA1-Digest: Kxp9rCcHhOBKd8PgvCyV9goDOCc=
+
+Name: modules/util/getUriFromFile.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KDaU5DUClEZGeYBpB06WEQ==
+SHA1-Digest: YOT0sLte2ANaUsvzHRmZvq4f51E=
+
+Name: modules/util/hitch.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HO0pqevSJGJwLrmqG2Z7FA==
+SHA1-Digest: TEKbWO+xOv6/Fh53xEPx/CoZCnY=
+
+Name: modules/util/inArray.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tJ0W/D6EMU0MwyuJ7pmA1w==
+SHA1-Digest: zOPlYSnWPbO2/SWTFXRvj+K0/as=
+
+Name: modules/util/installScriptFromSource.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: okfFvDQIsIktKw99D14XvA==
+SHA1-Digest: +MnS9FQxX3MF012MltFzpRZeBjk=
+
+Name: modules/util/isGreasemonkeyable.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iH25P7ppStf1LjhCVKNlSA==
+SHA1-Digest: wphB5BUYIt1LnVsbp9RktL0RWrQ=
+
+Name: modules/util/logError.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: svtY8VdPhN8uiGFCJoRVtA==
+SHA1-Digest: vLOpWmAigTx2LMRBJd4FxlX+awM=
+
+Name: modules/util/memoize.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HiIQIPA9F5cZaSClvmrOAg==
+SHA1-Digest: VpP0KBgO6i4JTkStkTFLPBKcz4o=
+
+Name: modules/util/newUserScript.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L5ktM1b2zP369zh9yw5z8Q==
+SHA1-Digest: OJY5c+LA5kgvo7OC2Oc5gtSIHHY=
+
+Name: modules/util/openInEditor.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yiRg/9wTo/JgVB/XxbcSjw==
+SHA1-Digest: iF5a2FDzeWFCKV7Pmne9VmZAzS4=
+
+Name: modules/util/scriptDir.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ewe/LUUYUEPSqO/FHBsoXQ==
+SHA1-Digest: 4lxYq+yB0CQnJSN6f8ob4bnmbLk=
+
+Name: modules/util/scriptMatchesUrlAndRuns.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QdhszaEOPfvmcJJL/Qqo8Q==
+SHA1-Digest: CLHVzFXAHt6Oo/eaemaPRrVKWQQ=
+
+Name: modules/util/setEditor.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z08Dg0A60hLk8PgQ9xcNaQ==
+SHA1-Digest: bWG/EsEyLsSkcj51UH6vTC7lWpc=
+
+Name: modules/util/setEnabled.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nWPAsSv5mgyvsfEMmQl63A==
+SHA1-Digest: St68/KGapDusC3WzicYYA4y6TVg=
+
+Name: modules/util/sha1.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sxgO6H/Y48Z+EgLSKuFNiQ==
+SHA1-Digest: Qn/jJDXJYeBbO9AIVv79T8TKYHM=
+
+Name: modules/util/showInstallDialog.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2ZCyC0SWvv4V/sBOphm3MA==
+SHA1-Digest: z3xMdMiY8rcUt68CYnhV7MvLKkY=
+
+Name: modules/util/sniffGrants.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: avxg6/c6u5SeZNwlOemDeQ==
+SHA1-Digest: dpRhHIwJuAAKGfKhqXT/+9bn+qc=
+
+Name: modules/util/timeout.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h1fFyYJsQeQ2Yc/m2IAMCA==
+SHA1-Digest: ZK/bNTNfXxfj6UbYji/geYqdC+g=
+
+Name: modules/util/uriFromUrl.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dt5wCdbcfZm0DW8S/Uw3Lg==
+SHA1-Digest: RZ/GIHwFKugJSPf96HhyycuOe+U=
+
+Name: modules/util/uuid.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8/vyU7plsNdXMqUm0+Bq9Q==
+SHA1-Digest: F3LGxDADfL/2ExWcGp0NgPuzfNI=
+
+Name: modules/util/windowId.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zcasxo5Yho+ZgxqPPwwENA==
+SHA1-Digest: rE54Di73dA4ubuWHpYE8L/cVsic=
+
+Name: modules/util/windowIdForEvent.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X9tB7RzImmBvoowP9p7Q4Q==
+SHA1-Digest: 510VC4CmrgYNY0QLFyQsl3zUL20=
+
+Name: modules/util/windowIsClosed.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jTfgYP9D4n5r4pOgVD6yHg==
+SHA1-Digest: sG0YCkxcPF+3isIUSKE2Dl3u3wQ=
+
+Name: modules/util/writeToFile.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6B2XvyQwe/iPShn/C02yqg==
+SHA1-Digest: Qbw7T6Nv4fOqlS/McgLQh3uFNac=
+
+Name: skin/addons4.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VlmidFECSDlSFl+kWEN+Sw==
+SHA1-Digest: S/UQ+SB+4X4QrMltN5E5pF/pcwM=
+
+Name: skin/bindings.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2NGBD7+b0DlgtV83KCc8wg==
+SHA1-Digest: j0B4l3DB1sfwFDUcp12pjYDY+wo=
+
+Name: skin/browser.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sW9DmhZ3Y5Tgj4NjlY+6LA==
+SHA1-Digest: JooSrsmS3XbPkbhfp17AzSsAI8Y=
+
+Name: skin/icon16.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ersH1COeSFW9y3z3JFF3mA==
+SHA1-Digest: jakcnQq9IRs+jDDs3qx2oA6RGoY=
+
+Name: skin/icon16disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8+2OyHQTVhlq5VurcZvxGg==
+SHA1-Digest: R4lrJ0JZKZE3H7Tm/R1FCoqbpak=
+
+Name: skin/icon24.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mqEyNOazAj1BMly+iodFtg==
+SHA1-Digest: Tg+10j8aOWS4MMgEZnC/leFaDnA=
+
+Name: skin/icon32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d+bDZnVATR2lZ3JKIDpXAg==
+SHA1-Digest: hwLPRrP3DhUD2Vr4KfrGhbE98Es=
+
+Name: skin/options.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ImnXqoAANlvkAflrslu7EQ==
+SHA1-Digest: oPh20qA4GyI0QRGdDo2OofaPq1Y=
+
+Name: skin/scriptprefs.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WZYRWgurHoN4iviBASetMQ==
+SHA1-Digest: CHiATsbBz11GBsR7ZWM6GyrXgVY=
+
+Name: skin/userscript.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mQ+cbu2+wFW3fCRZJ56+lA==
+SHA1-Digest: nXXU6QQU1fPEeleS1M5xqFwcfmI=
+

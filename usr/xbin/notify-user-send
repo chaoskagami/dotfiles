@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# This script notify-sends to a specific user.
+# It's rather simplistic, and relies on a user only having a single DBUS notification daemon running.
+# This must be run as root.
+
+if [ "$1" == "" ]; then
+	echo "Usage: $0 USERNAME ..."
+	echo "   All arguments after are meant for notify-send."
+	exit 1
+fi
+
+if [ "$1" == "all" ]; then
+	export ALL_USER="$(users | sort)"
+else
+	export ALL_USER="$1"
+fi
+
+shift 1
+
+echo "== DBUS SESSIONS ==============="
+
+for USER_TMP in $ALL_USER; do
+	if [ "$USER_TMP" = "$USER_LAST" ]; then
+		#if user already notified, continue
+		continue
+	fi
+	echo "  Notifying user '$USER_TMP'."
+	su "$USER_TMP" -c "XAUTHORITY=/home/$USER_TMP/.Xauthority DISPLAY=:0 notify-send \"$@\""
+	#save last username to avoid double notification
+	USER_LAST="$USER_TMP"
+done
+
+echo "==============================="

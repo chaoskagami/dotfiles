@@ -1,0 +1,71 @@
+17:53:18: Creating resource group General
+17:53:18: Creating resource group Internal
+17:53:18: Creating resource group Autodetect
+17:53:18: SceneManagerFactory for type 'DefaultSceneManager' registered.
+17:53:18: Registering ResourceManager for type Material
+17:53:18: Registering ResourceManager for type Mesh
+17:53:18: Registering ResourceManager for type Skeleton
+17:53:18: MovableObjectFactory for type 'ParticleSystem' registered.
+17:53:18: ArchiveFactory for archive type FileSystem registered.
+17:53:18: ArchiveFactory for archive type Zip registered.
+17:53:18: ArchiveFactory for archive type EmbeddedZip registered.
+17:53:18: DDS codec registering
+17:53:18: FreeImage version: 3.15.4
+17:53:18: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+17:53:18: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,koa,iff,lbm,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,wap,wbmp,wbm,psd,cut,xbm,xpm,dds,gif,hdr,pfm,pct,pict,pic
+17:53:18: Registering ResourceManager for type HighLevelGpuProgram
+17:53:18: Registering ResourceManager for type Compositor
+17:53:18: MovableObjectFactory for type 'Entity' registered.
+17:53:18: MovableObjectFactory for type 'Light' registered.
+17:53:18: MovableObjectFactory for type 'BillboardSet' registered.
+17:53:18: MovableObjectFactory for type 'ManualObject' registered.
+17:53:18: MovableObjectFactory for type 'BillboardChain' registered.
+17:53:18: MovableObjectFactory for type 'RibbonTrail' registered.
+17:53:18: *-*-* OGRE Initialising
+17:53:18: *-*-* Version 1.9.0 (Ghadamon)
+17:53:18: Loading library /usr/lib64/OGRE/RenderSystem_GL.so
+17:53:18: Installing plugin: GL RenderSystem
+17:53:18: OpenGL Rendering Subsystem created.
+17:53:18: Plugin successfully installed
+17:53:18: Loading library /usr/lib64/OGRE/Plugin_CgProgramManager.so
+17:53:18: Installing plugin: Cg Program Manager
+17:53:18: Plugin successfully installed
+17:53:18: Loading library /usr/lib64/OGRE/Plugin_ParticleFX.so
+17:53:18: Installing plugin: ParticleFX
+17:53:18: Particle Emitter Type 'Point' registered
+17:53:18: Particle Emitter Type 'Box' registered
+17:53:18: Particle Emitter Type 'Ellipsoid' registered
+17:53:18: Particle Emitter Type 'Cylinder' registered
+17:53:18: Particle Emitter Type 'Ring' registered
+17:53:18: Particle Emitter Type 'HollowEllipsoid' registered
+17:53:18: Particle Affector Type 'LinearForce' registered
+17:53:18: Particle Affector Type 'ColourFader' registered
+17:53:18: Particle Affector Type 'ColourFader2' registered
+17:53:18: Particle Affector Type 'ColourImage' registered
+17:53:18: Particle Affector Type 'ColourInterpolator' registered
+17:53:18: Particle Affector Type 'Scaler' registered
+17:53:18: Particle Affector Type 'Rotator' registered
+17:53:18: Particle Affector Type 'DirectionRandomiser' registered
+17:53:18: Particle Affector Type 'DeflectorPlane' registered
+17:53:18: Plugin successfully installed
+17:53:18: Particle Emitter Type 'Nif' registered
+17:53:18: Particle Affector Type 'GrowFade' registered
+17:53:18: Particle Affector Type 'Gravity' registered
+17:55:16: *-*-* OGRE Shutdown
+17:55:16: Unregistering ResourceManager for type Compositor
+17:55:16: Unregistering ResourceManager for type Skeleton
+17:55:16: Unregistering ResourceManager for type Mesh
+17:55:16: Unregistering ResourceManager for type HighLevelGpuProgram
+17:55:16: Uninstalling plugin: ParticleFX
+17:55:16: Plugin successfully uninstalled
+17:55:16: Unloading library /usr/lib64/OGRE/Plugin_ParticleFX.so
+17:55:16: Uninstalling plugin: Cg Program Manager
+17:55:16: Plugin successfully uninstalled
+17:55:16: Unloading library /usr/lib64/OGRE/Plugin_CgProgramManager.so
+17:55:16: Uninstalling plugin: GL RenderSystem
+17:55:16: ******************************
+*** Stopping GLX Subsystem ***
+******************************
+17:55:16: Plugin successfully uninstalled
+17:55:16: Unloading library /usr/lib64/OGRE/RenderSystem_GL.so
+17:55:16: Unregistering ResourceManager for type Material

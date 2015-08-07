@@ -1,0 +1,46 @@
+#errors {
+	min-height: 3em;
+	max-height: 8em;
+	overflow: auto;
+	color: red;
+}
+#errors label {
+	cursor: pointer;
+}
+#internal-code {
+	font-family: monospace;
+	margin-bottom: 0;
+}
+.findbar-closebutton, .findbar-highlight, *[anonid="find-case-sensitive"] {
+	display: none;
+}
+#findbar {
+	border-top: 0;
+}
+.devtools-horizontal-splitter {
+	/* Overriding global.css */
+	height: 3px !important;
+}
+.devtools-textinput {
+	padding: 0 2px;
+}
+.devtools-toolbarbutton {
+	border-radius: 2px !important;
+	border: 1px solid rgba(0,0,0,0.3) !important;
+	padding: 1px 5px !important;
+}
+.devtools-separator {
+	margin: 0 5px 0 4px !important;
+}
+.devtools-toolbarbutton[disabled="true"] {
+	opacity: 0.2;
+}
+.update-url-row {
+	display: none;
+}
+grid {
+	margin: 2px 0;
+}
+#editor-tools {
+	padding: 5px 0;
+}

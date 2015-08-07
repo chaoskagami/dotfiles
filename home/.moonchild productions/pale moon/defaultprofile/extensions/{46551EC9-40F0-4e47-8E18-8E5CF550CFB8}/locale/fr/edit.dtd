@@ -1,0 +1,22 @@
+<!ENTITY checkforerrors "Vérifier les erreurs">
+<!ENTITY checkforerrors.ak "V">
+<!ENTITY chromefolder "Chemin vers le répertoire Chrome">
+<!ENTITY chromefolder.ak "C">
+<!ENTITY dataURI "URI des données…">
+<!ENTITY dataURI.ak "D">
+<!ENTITY htmlnamespace "Espace de nom HTML par défaut">
+<!ENTITY htmlnamespace.ak "H">
+<!ENTITY insert "Insérer">
+<!ENTITY insert.ak "I">
+<!ENTITY name "Nom">
+<!ENTITY name.ak "N">
+<!ENTITY openintexternaleditor "Ouvrir dans un éditeur dédié">
+<!ENTITY openintexternaleditor.ak "O">
+<!ENTITY preview "Aperçu">
+<!ENTITY preview.ak "A">
+<!ENTITY save "Enregistrer">
+<!ENTITY save.ak "E">
+<!ENTITY wraplines "Aller à la ligne">
+<!ENTITY wraplines.ak "g">
+<!ENTITY xulnamespace "Espace de nom XUL par défaut">
+<!ENTITY xulnamespace.ak "X">

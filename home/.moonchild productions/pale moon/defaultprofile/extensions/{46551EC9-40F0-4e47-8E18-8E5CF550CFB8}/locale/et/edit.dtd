@@ -1,0 +1,22 @@
+<!ENTITY checkforerrors "Check for Errors">
+<!ENTITY checkforerrors.ak "C">
+<!ENTITY chromefolder "Chrome kausta asukoht">
+<!ENTITY chromefolder.ak "C">
+<!ENTITY dataURI "Andmete URI...">
+<!ENTITY dataURI.ak "D">
+<!ENTITY htmlnamespace "HTML nimeruum vaikeväärtusega">
+<!ENTITY htmlnamespace.ak "H">
+<!ENTITY insert "Sisesta">
+<!ENTITY insert.ak "T">
+<!ENTITY name "Nimi">
+<!ENTITY name.ak "N">
+<!ENTITY openintexternaleditor "Ava eraldi redaktoris">
+<!ENTITY openintexternaleditor.ak "V">
+<!ENTITY preview "Eelvaade">
+<!ENTITY preview.ak "E">
+<!ENTITY save "Salvesta">
+<!ENTITY save.ak "S">
+<!ENTITY wraplines "Murra pikad read">
+<!ENTITY wraplines.ak "M">
+<!ENTITY xulnamespace "XUL nimeruum vaikeväärtusega">
+<!ENTITY xulnamespace.ak "X">

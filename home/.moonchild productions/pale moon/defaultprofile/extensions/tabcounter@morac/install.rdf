@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>tabcounter@morac</em:id>
+    <em:version>1.9.9.1-signed</em:version>
+    <em:type>2</em:type>
+		<em:bootstrap>true</em:bootstrap>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>31.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+		
+    <!-- SeaMonkey -->
+    <em:targetApplication> 
+      <Description>
+         <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+         <em:minVersion>2.0a1</em:minVersion>
+         <em:maxVersion>2.28</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:name>Tab Counter</em:name>
+    <em:description>Counts the number of open tabs</em:description>
+    <em:creator>Michael Kraft</em:creator>
+    <em:contributor>Jonathon Merz</em:contributor>
+    <em:translator>PetrTwo (cs)</em:translator>
+    <em:translator>typh (da)</em:translator>
+    <em:translator>Team erweiterungen.de (de)</em:translator>
+    <em:translator>Grg68 (el)</em:translator>
+    <em:translator>Chuzo (es-ES)</em:translator>
+    <em:translator>Tael_ (fr)</em:translator>
+    <em:translator>barryoni (he)</em:translator>
+    <em:translator>Sincic (hr)</em:translator>
+    <em:translator>Mikes Kaszmán István (hu)</em:translator>
+    <em:translator>Drry (ja)</em:translator>
+    <em:translator>Ivan Jonoski (mk)</em:translator>
+    <em:translator>Markh (nl)</em:translator>
+    <em:translator>Leszek(teo)Życzkowski (pl)</em:translator>
+    <em:translator>humbertosartini (pt-BR)</em:translator>
+    <em:translator>lloco (pt-PT)</em:translator>
+    <em:translator>TLemur (ru)</em:translator>
+    <em:translator>DakSrbija (sr)</em:translator>
+    <em:translator>Lakrits (sv-SE)</em:translator>
+    <em:translator>mrtcvk (tr)</em:translator>
+    <em:translator>Sappa (uk)</em:translator>
+    <em:translator>Xmoke (zh-CN)</em:translator>
+    <em:translator>Tspranjna (zh-TW)</em:translator>
+
+    <em:optionsURL>chrome://tabcounter-morac/content/options.xul</em:optionsURL>
+
+    <!-- Localizations -->
+    <em:localized>
+      <Description>
+        <em:locale>cs</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Zobrazuje počet otevřených panelů.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>PetrTwo (cs)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>da</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Tæller antallet af åbne faner.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>typh (da)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>de</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Zeigt die Anzahl der offenen Tabs</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Team erweiterungen.de (de)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>el</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Μετράει τον αριθμό ανοικτών καρτελών</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Grg68 (el)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>es-ES</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Cuenta el número de pestañas abiertas.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Chuzo (es-ES)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>fr</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Compte le nombre d'onglets ouverts.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Tael_ (fr)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>he</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>סופר את מספר הטאבים הפתוחים</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>XTR (he)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>hr</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Broji kolicinu otvorenih tabova</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Sincic (hr)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>hu</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Megnyitott lapok számának megjelenítése</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Mikes Kaszmán István (hu)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>ja</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>開いているタブの総数を数えます。</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Drry (ja)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>mk</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Го пресметува бројот на отворени јазичиња.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Ivan Jonoski (mk)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>nl</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Telt het aantal openstaande tabbladen.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Markh (nl)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>pl</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Zlicza i wyświetla na głównym pasku menu liczbę otwartych kart</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Leszek(teo)Życzkowski (pl)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>pt-BR</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Contabiliza o número de abas abertas.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>humbertosartini (pt-BR)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>pt-PT</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Conta o número de separadores abertos.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>lloco (pt-PT)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>ru</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Считает, сколько открыто вкладок</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>TLemur (ru)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>sr</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Броји колико има отворених језичака.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>DakSrbija (sr)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>tr</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Açık Sekmeleri sayısını sayar</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>mrtcvk (tr)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>uk</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>Рахує кількість відкритих вкладок.</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Sappa (uk)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>zh-CN</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>显示已打开标签页数目</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Xmoke (zh-CN)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>zh-TW</em:locale>
+        <em:name>Tab Counter</em:name>
+        <em:description>顯示視窗開啟分頁數</em:description>
+        <em:creator>Morac</em:creator>
+        <em:contributor>Jonathon Merz</em:contributor>
+        <em:translator>Tspranjna (zh-TW)</em:translator>
+      </Description>
+    </em:localized>
+  </Description>
+</RDF>

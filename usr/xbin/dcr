@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Decaptalizes files recursively.
+# I use this for Skyrim, Oblivion, and Morrowind when installing mods.
+
+if [ "$1" == "" ]; then
+	echo "Renames files in a directory to lowercase resursively. arg1 should be a directory."
+	exit
+fi
+
+find . -depth -exec perl-rename -v 's:([^/]*$):lc($1):e' {} +

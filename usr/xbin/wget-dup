@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# I use this to download sites with wget.
+
+exec wget \
+	--recursive \
+	--no-clobber \
+	--page-requisites \
+	--html-extension \
+	--convert-links \
+	--domains "$1" \
+	--no-parent "$1"

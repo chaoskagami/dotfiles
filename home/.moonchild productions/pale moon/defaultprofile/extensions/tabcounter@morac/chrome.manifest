@@ -1,0 +1,25 @@
+content	tabcounter-morac	chrome/content/
+
+locale tabcounter-morac en-US chrome/locale/en-US/
+locale tabcounter-morac cs chrome/locale/cs/
+locale tabcounter-morac da chrome/locale/da/
+locale tabcounter-morac de chrome/locale/de/
+locale tabcounter-morac el chrome/locale/el/
+locale tabcounter-morac es-ES chrome/locale/es-ES/
+locale tabcounter-morac fr chrome/locale/fr/
+locale tabcounter-morac he chrome/locale/he/
+locale tabcounter-morac hr chrome/locale/hr/
+locale tabcounter-morac hu chrome/locale/hu/
+locale tabcounter-morac ja chrome/locale/ja/
+locale tabcounter-morac mk chrome/locale/mk/
+locale tabcounter-morac nl chrome/locale/nl/
+locale tabcounter-morac pl chrome/locale/pl/
+locale tabcounter-morac pt-BR chrome/locale/pt-BR/
+locale tabcounter-morac pt-PT chrome/locale/pt-PT/
+locale tabcounter-morac ru chrome/locale/ru/
+locale tabcounter-morac sr chrome/locale/sr/
+locale tabcounter-morac sv-SE chrome/locale/sv-SE/
+locale tabcounter-morac tr chrome/locale/tr/
+locale tabcounter-morac uk chrome/locale/uk/
+locale tabcounter-morac zh-CN chrome/locale/zh-CN/
+locale tabcounter-morac zh-TW chrome/locale/zh-TW/

@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Aantal open tabbladen">
+<!ENTITY open_tabs "Open tabbladen:">
+<!ENTITY options.label "Opties">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Tab Counter-opties">
+<!ENTITY cssInfo.label "Tekst wijzigen (klik op de labels voor CSS-informatie):">
+<!ENTITY color.label "Lettertypekleur:">
+<!ENTITY color.accesskey "k">
+<!ENTITY fontSize.label "Lettertypegrootte:">
+<!ENTITY fontSize.accesskey "g">
+<!ENTITY fontFamily.label "Lettertypefamilie:">
+<!ENTITY fontFamily.accesskey "f">
+<!ENTITY fontWeight.label "Gewicht:">
+<!ENTITY fontWeight.accesskey "w">
+<!ENTITY optionText.label "Optioneel weer te geven tekst…">
+<!ENTITY preText.label "Aantal vóór:">
+<!ENTITY preText.accesskey "V">
+<!ENTITY postText.label "Aantal na:">
+<!ENTITY postText.accesskey "N">
+<!ENTITY apply.label "Toepassen">
+<!ENTITY useFormatString.label "Geavanceerde tekstopmaak gebruiken">
+<!ENTITY useFormatString.accesskey "v">
+<!ENTITY formatStringText.label "Weer te geven geavanceerde tekst…">
+<!ENTITY formatString.label "Zinsdeel opmaken:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Zinsdeeluitbreidingen opmaken:">
+<!ENTITY formatStringToolTip.after.label "Aantal tabbladen na het huidige tabblad.">
+<!ENTITY formatStringToolTip.before.label "Aantal tabbladen voor het huidige tabblad.">
+<!ENTITY formatStringToolTip.current.label "Huidig aantal tabbladen.">
+<!ENTITY formatStringToolTip.number.label "Totaal aantal tabbladen.">
+<!ENTITY formatStringToolTip.visible_after.label "Aantal zichtbare tabbladen na het huidige tabblad.">
+<!ENTITY formatStringToolTip.visible_before.label "Aantal zichtbare tabbladen na het huidige tabblad.">
+<!ENTITY formatStringToolTip.visible_current.label "Huidig aantal zichtbare tabbladen.">
+<!ENTITY formatStringToolTip.visible_number.label "Totaal aantal zichtbare tabbladen.">
+<!ENTITY noAppTabs.label "App-tabbladen niet meetellen">
+<!ENTITY noAppTabs.accesskey "i">
+<!ENTITY noTooltip.label "Tooltip uitschakelen">
+<!ENTITY noTooltip.accesskey "T">

@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>privateTab@infocatcher</em:id>
+		<em:type>2</em:type>
+		<em:bootstrap>true</em:bootstrap>
+		<!-- Uncomment to fix some strange things on Nightly with disabled e10s
+		<em:multiprocessCompatible>true</em:multiprocessCompatible>
+		-->
+		<em:name>Private Tab</em:name>
+		<em:version>0.1.7.5.1-signed</em:version>
+		<em:description>Adds private tabs</em:description>
+		<em:creator>Infocatcher</em:creator>
+		<!--
+		<em:updateURL>http://infocatcher.ucoz.net/ext/fx/private_tab/update.rdf</em:updateURL>
+		<em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLgtEbrhCdZetIAanFNvkT441WwBgXcg1Zzlo5s5
+		              j9VLByj/L6UXAVqSria1dejjkKfxVbRXvqalJ7mENRambKpZ4AfV3dBCKUDjME56CMaAK7+DxMqaM3
+		              KEDKXn8XfqL2qkFsgcVjqh6AfltKRcyLGkU9+YQ82EXo6xm47hywoQIDAQAB</em:updateKey>
+		-->
+
+		<em:targetApplication> <!-- Firefox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>20.0</em:minVersion>
+				<em:maxVersion>41.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:targetApplication> <!-- SeaMonkey -->
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>2.17</em:minVersion>
+				<em:maxVersion>2.38a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:localized>
+			<Description>
+				<em:locale>en-US</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Adds private tabs</em:description>
+				<em:creator>Infocatcher</em:creator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>ar</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Adds private tabs</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>infinity</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>ca</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Afegeix pestanyes privades</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Dimas Streich</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>de</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Fügt private Tabs hinzu.</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>sierkb</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>el</em:locale>
+				<em:name>Καρτέλα ιδιωτικής περιήγησης</em:name>
+				<em:description>Δημιουργία καρτελών ιδιωτικής περιήγησης</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Γιώργος Μαλαμάς</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>es</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Añade pestañas privadas</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>strel</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>et</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Lisab privaatse kaardi funktsiooni</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Maidur</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>fr</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>La navigation privée gérée par onglets.</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Stis</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>hu</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Privát lapok használata</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Norbert Evenich</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>id</em:locale>
+				<em:name>Tab penjelajahan pribadi</em:name>
+				<em:description>Menambahkan tab mode penjelajahan pribadi</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Muhammad Anwar Ramadhan (Daisuke Dan)</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>it</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>La navigazione anonima su schede</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>moretti</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>ja</em:locale>
+				<em:name>プライベートタブ</em:name>
+				<em:description>プライベートタブを追加します</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>charishi</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>pl</em:locale>
+				<em:name>Prywatna karta</em:name>
+				<em:description>Dodaje prywatne karty.</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>marcinsu</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>pt-BR</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Cria abas de navegação privativa</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Marcelo Ghelman (ghelman.net)</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>ru</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Добавляет приватные вкладки</em:description>
+				<em:creator>Infocatcher</em:creator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>sr</em:locale>
+				<em:name>Приватни језичак</em:name>
+				<em:description>Додаје приватни језичак</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>ДакСРБИЈА</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>tr</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Gizli sekmeler ekler</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Sinan Kaan Yerli (skyerli.org)</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>uk</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Додає приватні вкладки</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>dbv92</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>vi</em:locale>
+				<em:name>Private Tab</em:name>
+				<em:description>Duyệt web riêng tư theo thẻ</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Leof36</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>zh-CN</em:locale>
+				<em:name>隐私标签页</em:name>
+				<em:description>增加打开隐私标签页功能</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>Cye3s</em:translator>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>zh-TW</em:locale>
+				<em:name>隱私分頁</em:name>
+				<em:description>在分頁中開起隱私分頁</em:description>
+				<em:creator>Infocatcher</em:creator>
+				<em:translator>arbiger</em:translator>
+				<em:translator>ikurrina</em:translator>
+			</Description>
+		</em:localized>
+
+	</Description>
+</RDF>

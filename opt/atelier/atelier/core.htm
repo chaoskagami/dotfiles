@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- This file is a dummy which just loads up the javascript injector.
+     You probably shouldn't be editing this - it isn't necessary to. -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="content">
+			<!-- Stuff gets injected here. -->
+		</div>
+	</body>
+	<script type="text/javascript">
+		// This is the insertion method.
+		// Sort of a hack way of pulling a #include, but meh.
+		eval(require('fs').readFileSync("js/atelier_init.js")+'');
+	</script>
+</html>

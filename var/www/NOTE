@@ -1,0 +1,5 @@
+This is run on nginx with fastcgi-php.
+
+Homepage is basically ripped off from https://github.com/gokoururi/homepage but better integrated with my local archive of basically everything. This includes a couple of very experimental things I'm not ready to publish yet, like a danbooru clone written in C, archives of disappeared websites that even archive.org didn't save, local wiki clones, random shit, media streaming for my local network, etc.
+
+data.html is essentially an injectable list. There should be one in every subdir.

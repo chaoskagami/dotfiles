@@ -1,0 +1,100 @@
+#!/bin/bash
+
+# Utility script because GRSecurity doesn't
+# allow viewing /sys and /proc with good reason.
+# It's not possible for temperature data and
+# network xfer stats alone to allow for or
+# cause an exploit, so this runs in the back on my system.
+
+############################################
+# Temperature setup
+
+TEMP_SRC_PATH=/sys/class/hwmon
+TEMP_EXPORT_PATH=/tmp/hwmon
+
+mkdir -p $TEMP_EXPORT_PATH
+chmod -R 755 $TEMP_EXPORT_PATH
+
+############################################
+# Net stat setup.
+
+NET_SRC_PATH=/sys/class/net
+NET_EXPORT_PATH=/tmp/netstat
+
+mkdir -p	$NET_EXPORT_PATH
+chmod -R 755	$NET_EXPORT_PATH
+
+############################################
+# Power setup setup.
+
+POW_SRC_PATH=/sys/class/power_supply
+POW_EXPORT_PATH=/tmp/power
+
+mkdir -p	$POW_EXPORT_PATH
+chmod -R 755	$POW_EXPORT_PATH
+
+############################################
+# Copy loop.
+
+while /bin/true ; do
+	for hwmon in $TEMP_SRC_PATH/*; do
+		HWMONS=`ls $TEMP_SRC_PATH/$(basename $hwmon)/temp*_input 2>/dev/null`
+
+		if [ ! -d ${TEMP_EXPORT_PATH}/$(basename $hwmon) ]; then
+			mkdir -p ${TEMP_EXPORT_PATH}/$(basename $hwmon)
+			chmod 755 ${TEMP_EXPORT_PATH}/$(basename $hwmon)
+			cat ${TEMP_SRC_PATH}/$(basename $hwmon)/name > ${TEMP_EXPORT_PATH}/$(basename $hwmon)/name
+			for temp in `echo $HWMONS | sed 's/_input//g'`; do
+				touch		${TEMP_EXPORT_PATH}/$(basename $hwmon)/$(basename $temp)_{crit,input,max}
+				chmod 644	${TEMP_EXPORT_PATH}/$(basename $hwmon)/$(basename $temp)_{crit,input,max}
+			done
+		fi
+
+		for temp in `echo $HWMONS | sed 's/_input//g'`; do
+			if [ -f "${TEMP_SRC_PATH}/$(basename $hwmon)/$(basename $temp)_crit" ]; then
+				cat ${TEMP_SRC_PATH}/$(basename $hwmon)/$(basename $temp)_crit > ${TEMP_EXPORT_PATH}/$(basename $hwmon)/$(basename $temp)_crit
+			fi
+
+			if [ -f "${TEMP_SRC_PATH}/$(basename $hwmon)/$(basename $temp)_max" ]; then
+				cat ${TEMP_SRC_PATH}/$(basename $hwmon)/$(basename $temp)_max > ${TEMP_EXPORT_PATH}/$(basename $hwmon)/$(basename $temp)_max
+			fi
+
+			if [ -f "${TEMP_SRC_PATH}/$(basename $hwmon)/$(basename $temp)_input" ]; then
+				cat ${TEMP_SRC_PATH}/$(basename $hwmon)/$(basename $temp)_input > ${TEMP_EXPORT_PATH}/$(basename $hwmon)/$(basename $temp)_input
+			fi
+		done
+	done
+
+	for iface in $NET_SRC_PATH/*; do
+		if [ ! -f ${NET_EXPORT_PATH}/$(basename $iface) ]; then
+		    mkdir -p $NET_EXPORT_PATH/$(basename $iface)/statistics
+		    chmod -R 755 $NET_EXPORT_PATH/$(basename $iface)
+
+			touch       ${NET_EXPORT_PATH}/$(basename $iface)/statistics/tx_bytes
+			chmod 644   ${NET_EXPORT_PATH}/$(basename $iface)/statistics/tx_bytes
+
+			touch       ${NET_EXPORT_PATH}/$(basename $iface)/statistics/rx_bytes
+			chmod 644   ${NET_EXPORT_PATH}/$(basename $iface)/statistics/rx_bytes
+		fi
+		cat ${NET_SRC_PATH}/$(basename $iface)/statistics/rx_bytes > ${NET_EXPORT_PATH}/$(basename $iface)/statistics/rx_bytes
+		cat ${NET_SRC_PATH}/$(basename $iface)/statistics/tx_bytes > ${NET_EXPORT_PATH}/$(basename $iface)/statistics/tx_bytes
+	done
+
+	for iface in $POW_SRC_PATH/BAT*; do
+		if [ ! -f ${POW_EXPORT_PATH}/$(basename $iface) ]; then
+			mkdir -p $POW_EXPORT_PATH/$(basename $iface)/
+			chmod -R 755 $POW_EXPORT_PATH/$(basename $iface)/
+
+			touch		${POW_EXPORT_PATH}/$(basename $iface)/statistics/{charge_full,charge_now,status}
+			chmod 644	${POW_EXPORT_PATH}/$(basename $iface)/statistics/{charge_full,charge_now,status}
+		fi
+
+		cat ${POW_SRC_PATH}/$(basename $iface)/status		> ${POW_EXPORT_PATH}/$(basename $iface)/status
+		cat ${POW_SRC_PATH}/$(basename $iface)/charge_full	> ${POW_EXPORT_PATH}/$(basename $iface)/charge_full
+		cat ${POW_SRC_PATH}/$(basename $iface)/charge_now	> ${POW_EXPORT_PATH}/$(basename $iface)/charge_now
+	done
+
+	acpi -b > ${POW_EXPORT_PATH}/acpi
+
+	sleep 2s
+done

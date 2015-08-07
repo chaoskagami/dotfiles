@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Anzahl offener Tabs">
+<!ENTITY open_tabs "Offene Tabs:">
+<!ENTITY options.label "Einstellungen">
+<!ENTITY options.accesskey "E">
+<!ENTITY options "Tab Counter - Einstellungen">
+<!ENTITY cssInfo.label "Texteigenschaften ändern (für Informationen zur CSS-Formatierung auf den Text klicken):">
+<!ENTITY color.label "Schriftfarbe (&quot;color&quot;):">
+<!ENTITY color.accesskey "f">
+<!ENTITY fontSize.label "Schriftgröße (&quot;font-size&quot;):">
+<!ENTITY fontSize.accesskey "g">
+<!ENTITY fontFamily.label "Schriftart (&quot;font-family&quot;):">
+<!ENTITY fontFamily.accesskey "a">
+<!ENTITY fontWeight.label "Schriftdicke (&quot;font-weight&quot;):">
+<!ENTITY fontWeight.accesskey "d">
+<!ENTITY optionText.label "Optionaler zusätzlicher Text:">
+<!ENTITY preText.label "Vor der Zahl:">
+<!ENTITY preText.accesskey "V">
+<!ENTITY postText.label "Nach der Zahl:">
+<!ENTITY postText.accesskey "N">
+<!ENTITY apply.label "Übernehmen">
+<!ENTITY useFormatString.label "Erweiterte Text-Formatierung verwenden">
+<!ENTITY useFormatString.accesskey "r">
+<!ENTITY formatStringText.label "Erweiterter anzuzeigender Text:">
+<!ENTITY formatString.label "Zeichenfolge:">
+<!ENTITY formatString.accesskey "Z">
+<!ENTITY formatStringToolTip.label "Mögliche Anzeigeoptionen:">
+<!ENTITY formatStringToolTip.after.label "Anzahl der Tabs NACH dem aktiven Tab">
+<!ENTITY formatStringToolTip.before.label "Anzahl der Tabs VOR dem aktiven Tab">
+<!ENTITY formatStringToolTip.current.label "Nummer des aktiven Tabs">
+<!ENTITY formatStringToolTip.number.label "Gesamtanzahl der offenen Tabs">
+<!ENTITY formatStringToolTip.visible_after.label "Anzahl der Tabs in dieser Tab-Gruppe NACH dem aktiven Tab">
+<!ENTITY formatStringToolTip.visible_before.label "Anzahl der Tabs in dieser Tab-Gruppe VOR dem aktiven Tab">
+<!ENTITY formatStringToolTip.visible_current.label "Nummer des aktiven Tabs innerhalb dieser Tab-Gruppe">
+<!ENTITY formatStringToolTip.visible_number.label "Gesamtanzahl der Tabs in dieser Tab-Gruppe">
+<!ENTITY noAppTabs.label "App-Tabs nicht mitzählen">
+<!ENTITY noAppTabs.accesskey "m">
+<!ENTITY noTooltip.label "Tooltip deaktivieren">
+<!ENTITY noTooltip.accesskey "T">

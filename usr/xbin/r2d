@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Starts radare2.
+
+exec /usr/bin/r2 -c=H --

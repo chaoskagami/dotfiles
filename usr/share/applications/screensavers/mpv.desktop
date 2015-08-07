@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MPV
+Comment=Plays Videos
+TryExec=mpv.sh
+Exec=mpv.sh
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;

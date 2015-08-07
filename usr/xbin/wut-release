@@ -1,0 +1,200 @@
+#!/bin/bash
+
+# This is basically an imitation of lsb-release. It does pretty much everything it does.
+# Maybe.
+
+INVOKE=$(basename $0)
+
+source /etc/lsb-release
+
+ver=0
+id=0
+des=0
+rel=0
+cod=0
+shr=0
+hel=0
+wut=0
+
+halp_imma_ijit() {
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	echo ""
+	echo "LSB-uncompliant LSB-release -0.1 (that's negative 0.1)"
+	echo "  Does not tell LSB information properly at all. >:)"
+	echo "  $INVOKE [opts]"
+	echo ""
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	echo ""
+	echo "-v, --version"
+	echo -e "   Are we compliant with LSB standards? If so, print them, otherwise n/a fuck standards"
+	echo -e "   (Hint: n/a fuck standards)"
+	echo ""
+	echo "-i, --id"
+	echo -e "   This is proper. Mostly. Don't trust my system, though. I mean, I AM THE FUCKING ID."
+	echo -e "   (I didn't intend the freud reference, fyi, but with how chaotic this description is...)"
+	echo ""
+	echo "-d, --distributor"
+	echo -e "   Display the single line text description of the distribution."
+	echo -e "   Also sorta proper...kinda. Also, the LSB needs to not use tongue twisters."
+	echo ""
+	echo "-r, --release"
+	echo -e "   Display the release number of the distribution..."
+	echo -e "   Do from scratch systems even have release numbers?"
+	echo ""
+	echo "-c, --codename"
+	echo -e "   Display the codename according to the distribution release..."
+	echo -e "   This field is fun. Because release codes are funny."
+	echo ""
+	echo "-a, --all"
+	echo -e "   DISPLAYS ALL THE SHAT."
+	echo ""
+	echo "-s, --short"
+	echo -e "   Spits stuff out on one line. Why the hell would you do this when spaces are allowed?"
+	echo ""
+	echo "-h, --help"
+	echo -e "   Display this. Wut I stupid halp progrm not wark"
+	echo ""
+	echo "To be serious though, any program expecting lsb-release should work fine with this hack."
+	echo "I mean, as long as they don't actually check the compliance, because why would they bother?"
+	echo ""
+	if [ "$INVOKE" = "wut-release" ]; then
+
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	echo ""
+	echo "You invoked this piece of crap as wut-release. I'm not sure why you're smart enough"
+	echo "to do such a thing, but anyways - you may notice the /usr/xbin and lack of /usr/local."
+	echo ""
+	echo "On a custom system /usr/local loses it's entire point so I've ommitted it. xbin is for"
+	echo "auXillary scripts, like this one."
+	echo ""
+	echo "All gigantic-ass things go in /opt, including binary distributions. So Qt is there,"
+	echo "palemoon, steam, thunderbird, etc."
+	echo ""
+	echo "The totally nutty symlinks in /usr to / are for applications that are terminally idiotic"
+	echo "and don't read config settings, or anything in CMake because CMake is bullshit."
+	echo ""
+	echo "The directory /usr/multi is where programs that have multiple parallel versions go."
+	echo ""
+	echo "/usr/cross is for cross-compiling toolchains."
+	echo ""
+	echo "And you may have also noticed that everything on / itself is symlinks. This is my rather"
+	echo "primitive method of multiple linux systems - relink n' run. Yes, it actually works. Surprised?"
+	echo ""
+	echo "Hopefully that gives you a better idea of my 'insane' system. ;P"
+	echo ""
+
+	fi
+
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	exit 0
+}
+
+if [ "$#" = 0 ]; then
+	echo "LSB Version: n/a, 'fuck standards'"
+fi
+
+while (( "$#" )); do
+	# Long opt?
+	if [[ $1 =~ .*--.* ]]; then
+		# yes.
+		if [ "$1" = "--version" ]; then
+			ver=1
+		elif [ "$1" = "--id" ]; then
+			id=1
+		elif [ "$1" = "--description" ]; then
+			des=1
+		elif [ "$1" = "--release" ]; then
+			rel=1
+		elif [ "$1" = "--codename" ]; then
+			cod=1
+		elif [ "$1" = "--all" ]; then
+			ver=1
+			id=1
+			des=1
+			rel=1
+			cod=1
+		elif [ "$1" = "--short" ]; then
+			shr=1
+		elif [ "$1" = "--help" ]; then
+			hel=1
+		fi
+	else
+		# no.
+		if [[ $1 =~ .*v.* ]]; then
+			ver=1
+		fi
+		if [[ $1 =~ .*i.* ]]; then
+			id=1
+		fi
+		if [[ $1 =~ .*d.* ]]; then
+			des=1
+		fi
+		if [[ $1 =~ .*r.* ]]; then
+			rel=1
+		fi
+		if [[ $1 =~ .*c.* ]]; then
+			cod=1
+		fi
+		if [[ $1 =~ .*a.* ]]; then
+			ver=1
+			id=1
+			des=1
+			rel=1
+			cod=1
+		fi
+		if [[ $1 =~ .*s.* ]]; then
+			shr=1
+		fi
+		if [[ $1 =~ .*h.* ]]; then
+			hel=1
+		fi
+	fi
+
+	shift
+done
+
+if [ $hel = 1 ]; then
+	halp_imma_ijit
+fi
+
+if [ $ver = 1 ]; then
+	if [ $shr = 1 ]; then
+		echo -n "n/a, 'fuck standards' "
+	else
+		echo "LSB Version: n/a, 'fuck standards'"
+	fi
+fi
+
+if [ $id = 1 ]; then
+	if [ $shr = 1 ]; then
+		echo -n "$DISTRIB_ID "
+	else
+		echo "Distributor ID: $DISTRIB_ID "		
+	fi
+fi
+
+if [ $des = 1 ]; then
+	if [ $shr = 1 ]; then
+		echo -n "$DISTRIB_DESCRIPTION "
+	else
+		echo "Description: $DISTRIB_DESCRIPTION"
+	fi
+fi
+
+if [ $rel = 1 ]; then
+	if [ $shr = 1 ]; then
+		echo -n "$DISTRIB_RELEASE "
+	else
+		echo "Release: $DISTRIB_RELEASE"
+	fi
+fi
+
+if [ $cod = 1 ]; then
+	if [ $shr = 1 ]; then
+		echo -n "$DISTRIB_CODENAME"
+	else
+		echo "Codename: $DISTRIB_CODENAME"
+	fi
+fi
+
+exit 0

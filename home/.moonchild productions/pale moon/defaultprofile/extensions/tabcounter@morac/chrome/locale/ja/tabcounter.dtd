@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "開いたタブの総数">
+<!ENTITY open_tabs "開いているタブ:">
+<!ENTITY options.label "オプション">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Tab Counter オプション">
+<!ENTITY cssInfo.label "テキスト変更 (CSS 情報はラベルをクリック):">
+<!ENTITY color.label "Font Color: ">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Font Size: ">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "Font Family: ">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Font Weight: ">
+<!ENTITY fontWeight.accesskey "W">
+<!ENTITY optionText.label "任意の表示テキスト...">
+<!ENTITY preText.label "数の前">
+<!ENTITY preText.accesskey "B">
+<!ENTITY postText.label "数の後">
+<!ENTITY postText.accesskey "A">
+<!ENTITY apply.label "適用">
+<!ENTITY useFormatString.label "詳細テキスト書式を利用する">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "詳細な表示テキスト...">
+<!ENTITY formatString.label "書式文字列:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "書式文字列展開:">
+<!ENTITY formatStringToolTip.after.label "現在のタブより後のタブの数。">
+<!ENTITY formatStringToolTip.before.label "現在のタブより前のタブの数。">
+<!ENTITY formatStringToolTip.current.label "現在のタブの数。">
+<!ENTITY formatStringToolTip.number.label "タブの総数。">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Number of the Current visible tab.">
+<!ENTITY formatStringToolTip.visible_number.label "Total Number of visible tabs.">
+<!ENTITY noAppTabs.label "Do not count app tabs">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "T">

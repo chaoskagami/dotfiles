@@ -1,0 +1,6 @@
+This is a largely complete clone of what is in my configuration...which is to say, custom. You likely will find nothing truly of use here. Actually, maybe a few things.
+
+Some notes on WHY in some of this; My LFS system doesn't have sudo, only su. Root is passworded. Why?
+The OOB config for ubuntu is insecure. Giving the user the ability to run sudo using their own password,
+and having no root password set IS THE SAME AS WINDOWS. My system is set up to require the root password always,
+and my user password is completely different. Even when I did use sudo, it was set to require authentication as user, so it would ask root's password.

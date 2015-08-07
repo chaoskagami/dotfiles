@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# /usr/bin/python is linked to this.
+# It executes a version based on env vars, or 2.
+
+if [ "$PYENV" = "" ]; then
+    PYENV=2
+fi
+
+exec ${0}${PYENV} "$@"

@@ -1,0 +1,33 @@
+#!/bin/sh
+
+# This runs wine with configuration imports and auto-language setting.
+# For example, with TPDP, I have 'ja_JP' in lang.txt.
+
+if [ "$1" = "" ]; then
+	echo "Usage: wine-wrap PROGRAM.EXE"
+fi
+
+cdto="$(dirname "$1")"
+
+echo "[wrap] Program path - '$cdto'"
+
+cd "$cdto" || exit 1
+
+if [ -f "preload.reg" ]; then
+	echo "[wrap] Found preload registry. Injecting."
+	wine regedit preload.reg >log.txt 2>&1
+	echo "[wrap] Killing wine so changes propogate."
+	wineserver -k
+fi
+
+if [ -f "lang.txt" ]; then
+	echo "[wrap] Found lang.txt in directory."
+	LC_ALL="$(cat lang.txt)"
+	echo "[wrap] LC_ALL is now '$LC_ALL.'"
+fi
+
+export LC_ALL
+
+echo "[wrap] Launching program '$(basename $1)'"
+
+exec wine "$1" >log.txt 2>&1

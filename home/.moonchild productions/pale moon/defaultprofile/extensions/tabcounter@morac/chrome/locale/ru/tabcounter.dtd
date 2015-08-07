@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Счетчик открытых вкладок">
+<!ENTITY open_tabs "Открытые вкладки:">
+<!ENTITY options.label "Настройки">
+<!ENTITY options.accesskey "Н">
+<!ENTITY options "Настройки счетчика вкладок">
+<!ENTITY cssInfo.label "Настройки текста (щелкните для просмотра информации CSS)">
+<!ENTITY color.label "Цвет:">
+<!ENTITY color.accesskey "Ц">
+<!ENTITY fontSize.label "Размер:">
+<!ENTITY fontSize.accesskey "Р">
+<!ENTITY fontFamily.label "Шрифт:">
+<!ENTITY fontFamily.accesskey "Ш">
+<!ENTITY fontWeight.label "Начертание:">
+<!ENTITY fontWeight.accesskey "Н">
+<!ENTITY optionText.label "Необязательный текст">
+<!ENTITY preText.label "До числа:">
+<!ENTITY preText.accesskey "Д">
+<!ENTITY postText.label "После числа:">
+<!ENTITY postText.accesskey "П">
+<!ENTITY apply.label "Применить">
+<!ENTITY useFormatString.label "Использовать дополнительное форматирование:">
+<!ENTITY useFormatString.accesskey "ф">
+<!ENTITY formatStringText.label "Отображаемый текст">
+<!ENTITY formatString.label "Формат строки:">
+<!ENTITY formatString.accesskey "о">
+<!ENTITY formatStringToolTip.label "Расширения формата строки:">
+<!ENTITY formatStringToolTip.after.label "Число вкладок после текущей.">
+<!ENTITY formatStringToolTip.before.label "Число вкладок до текущей.">
+<!ENTITY formatStringToolTip.current.label "Номер текущей вкладки.">
+<!ENTITY formatStringToolTip.number.label "Всего вкладок.">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Number of the Current visible tab.">
+<!ENTITY formatStringToolTip.visible_number.label "Total Number of visible tabs.">
+<!ENTITY noAppTabs.label "Do not count app tabs">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "T">

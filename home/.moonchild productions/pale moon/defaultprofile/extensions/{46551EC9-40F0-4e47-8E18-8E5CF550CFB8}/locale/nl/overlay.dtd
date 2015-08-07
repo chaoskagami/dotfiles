@@ -1,0 +1,18 @@
+<!ENTITY addfile "Bestand installeren...">
+<!ENTITY addfile.ak "i">
+<!ENTITY cmd.enable.label "Inschakelen">
+<!ENTITY cmd.enable.accesskey "I">
+<!ENTITY cmd.disable.label "UitschakelenU">
+<!ENTITY cmd.disable.accesskey "U">
+<!ENTITY cmd.uninstall.label "Deïnstalleren">
+<!ENTITY cmd.uninstall2.accesskey "D">
+<!ENTITY findstylebrowser "Stijlen zoeken voor deze website...">
+<!ENTITY findstylebrowser.ak "z">
+<!ENTITY managestyles "Stijlen beheren...">
+<!ENTITY managestyles.ak "b">
+<!ENTITY turnon "Alle stijlen inschakelen">
+<!ENTITY turnon.ak "A">
+<!ENTITY turnoff "Alle stijlen uitschakelen">
+<!ENTITY turnoff.ak "u">
+<!ENTITY writestyle "Nieuwe stijl schrijven">
+<!ENTITY writestyle.ak "s">

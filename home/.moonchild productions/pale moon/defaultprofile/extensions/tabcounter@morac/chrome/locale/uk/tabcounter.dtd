@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Лічильник відкритих вкладок">
+<!ENTITY open_tabs "Відкритих вкладок:">
+<!ENTITY options.label "Параметри">
+<!ENTITY options.accesskey "П">
+<!ENTITY options "Параметри Tab Counter">
+<!ENTITY cssInfo.label "Формат тексту (Клацніть ярлик для отримання CSS інформації):">
+<!ENTITY color.label "Колір шрифту:">
+<!ENTITY color.accesskey "К">
+<!ENTITY fontSize.label "Розмір шрифту:">
+<!ENTITY fontSize.accesskey "Р">
+<!ENTITY fontFamily.label "Шрифт:">
+<!ENTITY fontFamily.accesskey "Ш">
+<!ENTITY fontWeight.label "Стиль шрифту:">
+<!ENTITY fontWeight.accesskey "С">
+<!ENTITY optionText.label "Необов'язковий текст для відображення...">
+<!ENTITY preText.label "До цифри:">
+<!ENTITY preText.accesskey "Д">
+<!ENTITY postText.label "Після цифри:">
+<!ENTITY postText.accesskey "П">
+<!ENTITY apply.label "Підтвердити">
+<!ENTITY useFormatString.label "Розширене форматування тексту">
+<!ENTITY useFormatString.accesskey "ф">
+<!ENTITY formatStringText.label "Додатковий текст для відображення...">
+<!ENTITY formatString.label "Формат рядка:">
+<!ENTITY formatString.accesskey "м">
+<!ENTITY formatStringToolTip.label "Розширення формату рядка:">
+<!ENTITY formatStringToolTip.after.label "Кількість вкладок після поточної.">
+<!ENTITY formatStringToolTip.before.label "Кількість вкладок до поточної.">
+<!ENTITY formatStringToolTip.current.label "Номер поточної вкладки.">
+<!ENTITY formatStringToolTip.number.label "Усього вкладок.">
+<!ENTITY formatStringToolTip.visible_after.label "Кількість видимих вкладок після поточної.">
+<!ENTITY formatStringToolTip.visible_before.label "Кількість видимих вкладок до поточної.">
+<!ENTITY formatStringToolTip.visible_current.label "Номер поточної видимої вкладки.">
+<!ENTITY formatStringToolTip.visible_number.label "Загальна кількість видимих вкладок.">
+<!ENTITY noAppTabs.label "Не рахувати цільові вкладки">
+<!ENTITY noAppTabs.accesskey "Н">
+<!ENTITY noTooltip.label "Вимкнути підказки">
+<!ENTITY noTooltip.accesskey "В">

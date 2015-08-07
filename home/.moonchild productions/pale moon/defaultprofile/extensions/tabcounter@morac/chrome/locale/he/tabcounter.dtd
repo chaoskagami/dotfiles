@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "ספירת לשוניות פתוחות">
+<!ENTITY open_tabs "לשוניות פתוחות:">
+<!ENTITY options.label "אפשרויות">
+<!ENTITY options.accesskey "פ">
+<!ENTITY options "אפשרויות Tab Counter">
+<!ENTITY cssInfo.label "שנה כתב (לחץ על תוויות עבור פרטי CSS):">
+<!ENTITY color.label "צבע גופן:">
+<!ENTITY color.accesskey "צ">
+<!ENTITY fontSize.label "גודל גופן:">
+<!ENTITY fontSize.accesskey "ג">
+<!ENTITY fontFamily.label "סוג גופן:">
+<!ENTITY fontFamily.accesskey "ס">
+<!ENTITY fontWeight.label "עובי גופן:">
+<!ENTITY fontWeight.accesskey "נ">
+<!ENTITY optionText.label "כתב אפשרי לתצוגה...">
+<!ENTITY preText.label "לפני המספר:">
+<!ENTITY preText.accesskey "פ">
+<!ENTITY postText.label "אחרי המספר:">
+<!ENTITY postText.accesskey "א">
+<!ENTITY apply.label "החל">
+<!ENTITY useFormatString.label "השתמש בתבנית כתב מתקדמת">
+<!ENTITY useFormatString.accesskey "מ">
+<!ENTITY formatStringText.label "כתב מתקדם לתצוגה...">
+<!ENTITY formatString.label "תבנית המחרוזת:">
+<!ENTITY formatString.accesskey "ב">
+<!ENTITY formatStringToolTip.label "תבנית מחרוזת מבוקשת:">
+<!ENTITY formatStringToolTip.after.label "מספר הלשוניות לאחר הלשונית הנוכחית.">
+<!ENTITY formatStringToolTip.before.label "מספר הלשוניות לפני הלשונית הנוכחית.">
+<!ENTITY formatStringToolTip.current.label "מספר הלשונית הנוכחית.">
+<!ENTITY formatStringToolTip.number.label "המספר הכולל של הלשוניות.">
+<!ENTITY formatStringToolTip.visible_after.label "מספר הלשוניות הגלויות לאחר הלשונית הנוכחית.">
+<!ENTITY formatStringToolTip.visible_before.label "מספר הלשוניות הגלויות לפני הלשונית הנוכחית.">
+<!ENTITY formatStringToolTip.visible_current.label "מספר הלשונית הגלויה הנוכחית.">
+<!ENTITY formatStringToolTip.visible_number.label "המספר הכולל של לשוניות גלויות.">
+<!ENTITY noAppTabs.label "אל תמנה לשוניות יישום">
+<!ENTITY noAppTabs.accesskey "א">
+<!ENTITY noTooltip.label "בטל בועת מידע">
+<!ENTITY noTooltip.accesskey "ב">

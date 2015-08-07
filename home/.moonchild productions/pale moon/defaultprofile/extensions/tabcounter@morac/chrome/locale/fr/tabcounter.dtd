@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Ouvrir le compteur d'onglets">
+<!ENTITY open_tabs "Ouvrir les onglets :">
+<!ENTITY options.label "Options">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Options de Tab Counter">
+<!ENTITY cssInfo.label "Modifier le texte (cliquez sur les labels pour les infos CSS) :">
+<!ENTITY color.label "Couleur de police :">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Taille de police :">
+<!ENTITY fontSize.accesskey "T">
+<!ENTITY fontFamily.label "Famille de police :">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Largeur de police :">
+<!ENTITY fontWeight.accesskey "L">
+<!ENTITY optionText.label "Texte optionnel à afficher…">
+<!ENTITY preText.label "Avant le nombre :">
+<!ENTITY preText.accesskey "A">
+<!ENTITY postText.label "Après le nombre :">
+<!ENTITY postText.accesskey "P">
+<!ENTITY apply.label "Appliquer">
+<!ENTITY useFormatString.label "Utiliser un formatage de texte avancé">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Texte avancé à afficher...">
+<!ENTITY formatString.label "Chaîne de format :">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Extensions de chaîne de format :">
+<!ENTITY formatStringToolTip.after.label "Nombre d'onglets après l'onglet en cours">
+<!ENTITY formatStringToolTip.before.label "Nombre d'onglets avant l'onglet en cours">
+<!ENTITY formatStringToolTip.current.label "Numéro de l'onglet en cours">
+<!ENTITY formatStringToolTip.number.label "Nombre total d'onglets">
+<!ENTITY formatStringToolTip.visible_after.label "Nombre d'onglets visibles après l'onglet actuel.">
+<!ENTITY formatStringToolTip.visible_before.label "Nombre d'onglets visibles avant l'onglet actuel.">
+<!ENTITY formatStringToolTip.visible_current.label "Numéro de l'onglet visible actuellement.">
+<!ENTITY formatStringToolTip.visible_number.label "Nombre total d’onglets visibles.">
+<!ENTITY noAppTabs.label "Ne pas compte les onglets d'application">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Désactiver l'infobulle">
+<!ENTITY noTooltip.accesskey "T">

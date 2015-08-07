@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://tabcounter-morac/locale/tabcounter.dtd">
+
+<prefwindow title="&options;"
+            id="tab_counter_prefs"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            type="prefwindow" 
+            buttons="accept,cancel,extra1" 
+            buttonlabelextra1="&apply.label;"
+            windowtype="TabCounter:Options" 
+            onload="onLoad();"
+            onchange="enableApply();"
+            ondialogaccept="savePrefs(false);" 
+            ondialogextra1="savePrefs(true);">
+    
+	<prefpane id="pane1">
+		<preferences>
+			<preference id="extensions.tabcounter.color" name="extensions.tabcounter.color" type="string"/>
+			<preference id="extensions.tabcounter.fontSize" name="extensions.tabcounter.fontSize" type="string"/>
+			<preference id="extensions.tabcounter.fontFamily" name="extensions.tabcounter.fontFamily" type="string"/>
+			<preference id="extensions.tabcounter.fontWeight" name="extensions.tabcounter.fontWeight" type="string"/>
+			<preference id="extensions.tabcounter.preLabel" name="extensions.tabcounter.preLabel" type="string"/>
+			<preference id="extensions.tabcounter.postLabel" name="extensions.tabcounter.postLabel" type="string"/>
+			<preference id="extensions.tabcounter.useFormatString" name="extensions.tabcounter.useFormatString" type="bool"/>
+			<preference id="extensions.tabcounter.formatString" name="extensions.tabcounter.formatString" type="string"/>
+			<preference id="extensions.tabcounter.noAppTabs" name="extensions.tabcounter.noAppTabs" type="bool"/>
+			<preference id="extensions.tabcounter.noTooltip" name="extensions.tabcounter.noTooltip" type="bool"/>
+		</preferences>
+
+		<label id="info" width="240">&cssInfo.label;</label>
+		<separator class="thin"/>
+		<grid>
+			<columns>
+				<column/>
+				<column flex="1"/>
+			</columns>
+			<rows>
+				<row align="center">
+					<label onclick="openLink('http://www.w3.org/TR/CSS21/colors.html#colors')" style="text-decoration: none;"
+					       class="text-link" value="&color.label;" accesskey="&color.accesskey;" control="color"/>
+					<hbox>
+						<textbox id="color" preference="extensions.tabcounter.color"/>
+						<colorpicker type="button" preference="extensions.tabcounter.color"/>
+					</hbox>
+				</row>
+				<row align="center">
+					<label onclick="openLink('http://www.w3.org/TR/CSS21/fonts.html#font-size-props')" style="text-decoration: none;"
+					       class="text-link" value="&fontSize.label;" accesskey="&fontSize.accesskey;" control="fontSize"/>
+					<textbox id="fontSize" preference="extensions.tabcounter.fontSize"/>
+				</row>
+				<row align="center">
+					<label onclick="openLink('http://www.w3.org/TR/CSS21/fonts.html#font-family-prop')" style="text-decoration: none;"
+					       class="text-link" value="&fontFamily.label;" accesskey="&fontFamily.accesskey;" control="fontFamily"/>
+					<textbox id="fontFamily" preference="extensions.tabcounter.fontFamily"/>
+				</row>
+				<row align="center">
+					<label onclick="openLink('http://www.w3.org/TR/CSS21/fonts.html#font-boldness')" style="text-decoration: none;"
+					       class="text-link" value="&fontWeight.label;" accesskey="&fontWeight.accesskey;" control="fontWeight"/>
+					<textbox id="fontWeight" preference="extensions.tabcounter.fontWeight"/>
+				</row>
+			</rows>
+		</grid>
+		<separator class="groove"/>
+		<checkbox id="noTooltip" label="&noTooltip.label;" accesskey="&noTooltip.accesskey;" preference="extensions.tabcounter.noTooltip"/>
+		<checkbox id="noAppTabsCheckbox" label="&noAppTabs.label;" accesskey="&noAppTabs.accesskey;" preference="extensions.tabcounter.noAppTabs"/>
+		<checkbox id="useFormatStringCheckbox" label="&useFormatString.label;" accesskey="&useFormatString.accesskey;" preference="extensions.tabcounter.useFormatString"/>
+		<separator class="thin"/>
+		<grid id="optionTextGrid">
+			<columns>
+				<column/>
+				<column flex="1"/>
+			</columns>
+			<rows>
+				<hbox align="center">
+					<label value="&optionText.label;"/>
+					<separator class="thin"/>
+				</hbox>
+				<row align="center">
+					<label value="&preText.label;" accesskey="&preText.accesskey;" control="preText"/>
+					<textbox id="preText" preference="extensions.tabcounter.preLabel"/>
+				</row>
+				<row align="center">
+					<label value="&postText.label;" accesskey="&postText.accesskey;" control="postText"/>
+					<textbox id="postText" preference="extensions.tabcounter.postLabel"/>
+				</row>
+			</rows>
+		</grid>
+		<grid id="formatStringGrid">
+			<columns>
+				<column/>
+				<column flex="1"/>
+			</columns>
+			<rows>
+				<hbox align="center">
+					<label value="&formatStringText.label;"/>
+					<separator class="thin"/>
+				</hbox>
+				<row align="center" tooltip="formatStringToolTip">
+					<label value="&formatString.label;" accesskey="&formatString.accesskey;" control="formatString"/>
+					<textbox id="formatString" preference="extensions.tabcounter.formatString"/>
+				</row>
+			</rows>
+		</grid>
+		<tooltip id="formatStringToolTip" noautohide="true">
+			<label value="&formatStringToolTip.label;" class="header"/>
+			<label id="after" value=": &formatStringToolTip.after.label;"   class="monospace indent"/>
+			<label id="before" value=": &formatStringToolTip.before.label;"  class="monospace indent"/>
+			<label id="current" value=": &formatStringToolTip.current.label;" class="monospace indent"/>
+			<label id="number" value=": &formatStringToolTip.number.label;"  class="monospace indent"/>
+			<label id="visible_after" value=": &formatStringToolTip.visible_after.label;"   class="monospace indent"/>
+			<label id="visible_before" value=": &formatStringToolTip.visible_before.label;"  class="monospace indent"/>
+			<label id="visible_current" value=": &formatStringToolTip.visible_current.label;" class="monospace indent"/>
+			<label id="visible_number" value=": &formatStringToolTip.visible_number.label;"  class="monospace indent"/>
+		</tooltip>
+	</prefpane>
+	<script type="application/x-javascript" src="chrome://tabcounter-morac/content/options.js"></script>
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="bundle_tabcounter" src="chrome://tabcounter-morac/locale/tabcounter.properties"/>
+	</stringbundleset>
+</prefwindow>

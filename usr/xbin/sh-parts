@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# This is basically a shell script run-parts.
+# I don't feel like dragging in loads of shit, so I have lots of scripts like this.
+
+if [ ! -d $1 ]; then
+	echo "No directory specified."
+fi
+
+exitstat=0
+
+for f in $1/*; do
+	if [ ! -e $1 ] && [ ! -d $1 ]; then
+		echo "Not a proper file, no files, or can't execute."
+	else
+		$f
+
+		ret=$?
+		if [ ! $ret = 0 ]; then
+			echo "Command '$f' exited with status $ret."
+			exitstat=1
+		fi
+	fi
+
+done

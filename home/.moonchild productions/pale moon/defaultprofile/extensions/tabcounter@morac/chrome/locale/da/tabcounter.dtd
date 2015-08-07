@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Antal åbne faner">
+<!ENTITY open_tabs "Åbne faner:">
+<!ENTITY options.label "Indstillinger">
+<!ENTITY options.accesskey "I">
+<!ENTITY options "Tab Counter Indstillinger">
+<!ENTITY cssInfo.label "Ændre tekstindstillingerne (klik på teksten for CSS-info)">
+<!ENTITY color.label "Skrift farve:">
+<!ENTITY color.accesskey "F">
+<!ENTITY fontSize.label "Skrift størrelse:">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "Skrift familie:">
+<!ENTITY fontFamily.accesskey "T">
+<!ENTITY fontWeight.label "Skrift vægt:">
+<!ENTITY fontWeight.accesskey "B">
+<!ENTITY optionText.label "Ekstra tekst der skal vises...">
+<!ENTITY preText.label "Før nummer:">
+<!ENTITY preText.accesskey "N">
+<!ENTITY postText.label "Efter nummer:">
+<!ENTITY postText.accesskey "E">
+<!ENTITY apply.label "Anvend">
+<!ENTITY useFormatString.label "Anvend avanceret tekst formatering">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Advanced Text to display...">
+<!ENTITY formatString.label "Format String: ">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Format String Expansions:">
+<!ENTITY formatStringToolTip.after.label "Number of tabs After the current tab.">
+<!ENTITY formatStringToolTip.before.label "Number of tabs Before the current tab.">
+<!ENTITY formatStringToolTip.current.label "Number of the Current tab.">
+<!ENTITY formatStringToolTip.number.label "Total Number of tabs.">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Number of the Current visible tab.">
+<!ENTITY formatStringToolTip.visible_number.label "Total Number of visible tabs.">
+<!ENTITY noAppTabs.label "Do not count app tabs">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "T">

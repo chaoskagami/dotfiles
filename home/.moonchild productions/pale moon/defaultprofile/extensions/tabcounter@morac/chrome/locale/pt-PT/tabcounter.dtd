@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Abrir o Tab Count">
+<!ENTITY open_tabs "Abrir separadores:">
+<!ENTITY options.label "Opções">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Opções do Tab Count">
+<!ENTITY cssInfo.label "Alterar texto (clique nas etiquetas para info sobre CSS)">
+<!ENTITY color.label "Cor da fonte:">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Tamanho da fonte:">
+<!ENTITY fontSize.accesskey "m">
+<!ENTITY fontFamily.label "Tipo de Fonte:">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Altura da fonte:">
+<!ENTITY fontWeight.accesskey "A">
+<!ENTITY optionText.label "texto opcional a apresentar...">
+<!ENTITY preText.label "Número antes:">
+<!ENTITY preText.accesskey "n">
+<!ENTITY postText.label "Número depois:">
+<!ENTITY postText.accesskey "d">
+<!ENTITY apply.label "Aplicar">
+<!ENTITY useFormatString.label "Usar formatação de texto avançada">
+<!ENTITY useFormatString.accesskey "v">
+<!ENTITY formatStringText.label "Texto a mostrar...">
+<!ENTITY formatString.label "String de formatação:">
+<!ENTITY formatString.accesskey "o">
+<!ENTITY formatStringToolTip.label "Expansões do String de formato:">
+<!ENTITY formatStringToolTip.after.label "Número de separadores depois do separador actual.">
+<!ENTITY formatStringToolTip.before.label "Número de separadores antes do separador actual.">
+<!ENTITY formatStringToolTip.current.label "Número do separador actual.">
+<!ENTITY formatStringToolTip.number.label "Numero total de separadores.">
+<!ENTITY formatStringToolTip.visible_after.label "Número de separadores visíveis depois do separador atual.">
+<!ENTITY formatStringToolTip.visible_before.label "Número de separadores visíveis antes do separador atual.">
+<!ENTITY formatStringToolTip.visible_current.label "Número do separador visível atual.">
+<!ENTITY formatStringToolTip.visible_number.label "Número total de separadores visíveis.">
+<!ENTITY noAppTabs.label "Não contar separadores de app">
+<!ENTITY noAppTabs.accesskey "N">
+<!ENTITY noTooltip.label "Desativar dicas">
+<!ENTITY noTooltip.accesskey "D">

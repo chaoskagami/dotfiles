@@ -1,0 +1,22 @@
+<!ENTITY checkforerrors "Check for Errors">
+<!ENTITY checkforerrors.ak "C">
+<!ENTITY chromefolder "Chrome filsti">
+<!ENTITY chromefolder.ak "C">
+<!ENTITY dataURI "Data URI...">
+<!ENTITY dataURI.ak "D">
+<!ENTITY htmlnamespace "HTML namespace som standard">
+<!ENTITY htmlnamespace.ak "H">
+<!ENTITY insert "Indsæt">
+<!ENTITY insert.ak "I">
+<!ENTITY name "Navn">
+<!ENTITY name.ak "N">
+<!ENTITY openintexternaleditor "Åben i ekstern editor">
+<!ENTITY openintexternaleditor.ak "Å">
+<!ENTITY preview "Smugkig">
+<!ENTITY preview.ak "S">
+<!ENTITY save "Gem">
+<!ENTITY save.ak "G">
+<!ENTITY wraplines "Ombryd tekst">
+<!ENTITY wraplines.ak "W">
+<!ENTITY xulnamespace "XUL namespace som standard">
+<!ENTITY xulnamespace.ak "X">

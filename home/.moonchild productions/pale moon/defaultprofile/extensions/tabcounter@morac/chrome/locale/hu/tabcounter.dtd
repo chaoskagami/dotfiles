@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Megnyitott lapok száma">
+<!ENTITY open_tabs "Megnyitott lapok száma:">
+<!ENTITY options.label "Beállítások">
+<!ENTITY options.accesskey "B">
+<!ENTITY options "Tab Counter - beállítások">
+<!ENTITY cssInfo.label "Megjelenítés (kattintás a címkére - CSS infó):">
+<!ENTITY color.label "A betű színe:">
+<!ENTITY color.accesskey "s">
+<!ENTITY fontSize.label "A betű mérete:">
+<!ENTITY fontSize.accesskey "m">
+<!ENTITY fontFamily.label "Használt betűkészlet:">
+<!ENTITY fontFamily.accesskey "k">
+<!ENTITY fontWeight.label "A betű vastagsága:">
+<!ENTITY fontWeight.accesskey "v">
+<!ENTITY optionText.label "Szöveg megjelenítése...">
+<!ENTITY preText.label "Lapok száma előtt:">
+<!ENTITY preText.accesskey "e">
+<!ENTITY postText.label "Lapok száma után:">
+<!ENTITY postText.accesskey "u">
+<!ENTITY apply.label "Alkalmaz">
+<!ENTITY useFormatString.label "Bővített szövegformázás használata">
+<!ENTITY useFormatString.accesskey "B">
+<!ENTITY formatStringText.label "Bővített szöveg megjelenítése...">
+<!ENTITY formatString.label "Szöveg formázása:">
+<!ENTITY formatString.accesskey "f">
+<!ENTITY formatStringToolTip.label "Használható kapcsolók a bővített szövegben:">
+<!ENTITY formatStringToolTip.after.label "Az aktuális lap után levő lapok száma.">
+<!ENTITY formatStringToolTip.before.label "Az aktuális lap előtt levő lapok száma.">
+<!ENTITY formatStringToolTip.current.label "Az aktuális lap sorszáma.">
+<!ENTITY formatStringToolTip.number.label "Az összes megnyitott lap száma.">
+<!ENTITY formatStringToolTip.visible_after.label "Aktuális lap után megjelenített lapok száma.">
+<!ENTITY formatStringToolTip.visible_before.label "Aktuális lap előtt megjelenített lapok száma.">
+<!ENTITY formatStringToolTip.visible_current.label "A jelenlegi látható lap száma.">
+<!ENTITY formatStringToolTip.visible_number.label "Látható lapok száma.">
+<!ENTITY noAppTabs.label "Ne számolja a lapokat">
+<!ENTITY noAppTabs.accesskey "z">
+<!ENTITY noTooltip.label "Buboréksúgó letiltása">
+<!ENTITY noTooltip.accesskey "g">

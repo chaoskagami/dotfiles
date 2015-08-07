@@ -1,0 +1,59 @@
+component  {77bf3650-1cd6-11da-8cd6-0800200c9a66} components/greasemonkey.js
+contract   @greasemonkey.mozdev.org/greasemonkey-service;1 {77bf3650-1cd6-11da-8cd6-0800200c9a66}
+category   profile-after-change @greasemonkey.mozdev.org/greasemonkey-service;1 @greasemonkey.mozdev.org/greasemonkey-service;1
+category   content-policy @greasemonkey.mozdev.org/greasemonkey-service;1 @greasemonkey.mozdev.org/greasemonkey-service;1
+
+component  {20d898f3-2fb8-4b3a-b8c7-7ad6c2c48598} components/scriptProtocol.js
+contract   @mozilla.org/network/protocol;1?name=greasemonkey-script {20d898f3-2fb8-4b3a-b8c7-7ad6c2c48598}
+
+content    greasemonkey content/
+skin       greasemonkey classic/1.0 skin/
+
+overlay	   chrome://browser/content/browser.xul chrome://greasemonkey/content/browser.xul
+style      chrome://global/content/customizeToolbar.xul chrome://greasemonkey/skin/browser.css
+
+resource   greasemonkey modules/
+overlay	   chrome://browser/content/browser.xul chrome://greasemonkey/content/addons4.xul
+overlay    about:addons chrome://greasemonkey/content/addons4-overlay.xul
+
+overlay    chrome://greasemonkey/content/install.xul chrome://greasemonkey/content/closewindow.xul
+overlay    chrome://greasemonkey/content/options.xul chrome://greasemonkey/content/closewindow.xul
+overlay    chrome://greasemonkey/content/newscript.xul chrome://greasemonkey/content/closewindow.xul
+overlay    chrome://browser/content/scratchpad.xul chrome://greasemonkey/content/scratchpad-overlay.xul appversion<23.0
+overlay    chrome://browser/content/devtools/scratchpad.xul chrome://greasemonkey/content/scratchpad-overlay.xul appversion>=23.0
+
+locale     greasemonkey en-US locale/en-US/
+locale  greasemonkey  ar  locale/ar/
+locale  greasemonkey  ca  locale/ca/
+locale  greasemonkey  cs  locale/cs/
+locale  greasemonkey  da  locale/da/
+locale  greasemonkey  de  locale/de/
+locale  greasemonkey  el  locale/el/
+locale  greasemonkey  es-AR  locale/es-AR/
+locale  greasemonkey  es-CL  locale/es-CL/
+locale  greasemonkey  es-ES  locale/es-ES/
+locale  greasemonkey  es-MX  locale/es-MX/
+locale  greasemonkey  et  locale/et/
+locale  greasemonkey  fa  locale/fa/
+locale  greasemonkey  fi  locale/fi/
+locale  greasemonkey  fr  locale/fr/
+locale  greasemonkey  gl  locale/gl/
+locale  greasemonkey  he  locale/he/
+locale  greasemonkey  hu  locale/hu/
+locale  greasemonkey  it  locale/it/
+locale  greasemonkey  ja  locale/ja/
+locale  greasemonkey  ko  locale/ko/
+locale  greasemonkey  lt  locale/lt/
+locale  greasemonkey  nl  locale/nl/
+locale  greasemonkey  pl  locale/pl/
+locale  greasemonkey  pt-BR  locale/pt-BR/
+locale  greasemonkey  ro  locale/ro/
+locale  greasemonkey  ru  locale/ru/
+locale  greasemonkey  si  locale/si/
+locale  greasemonkey  sk  locale/sk/
+locale  greasemonkey  sr  locale/sr/
+locale  greasemonkey  sv-SE  locale/sv-SE/
+locale  greasemonkey  tr  locale/tr/
+locale  greasemonkey  uk  locale/uk/
+locale  greasemonkey  zh-CN  locale/zh-CN/
+locale  greasemonkey  zh-TW  locale/zh-TW/

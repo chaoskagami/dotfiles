@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Abrir Contador de Abas">
+<!ENTITY open_tabs "Abrir Abas:">
+<!ENTITY options.label "Opções">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Opção Tab Counter">
+<!ENTITY cssInfo.label "Alterar Texto (clique nas etiquetas para informação CSS):">
+<!ENTITY color.label "Cor da Fonte:">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Tamanha da Fonte:">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "Família da Fonte:">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Tamanho da Fonte:">
+<!ENTITY fontWeight.accesskey "W">
+<!ENTITY optionText.label "Texto opcional para mostrar...">
+<!ENTITY preText.label "Número antes:">
+<!ENTITY preText.accesskey "B">
+<!ENTITY postText.label "Número após:">
+<!ENTITY postText.accesskey "A">
+<!ENTITY apply.label "Aplicar">
+<!ENTITY useFormatString.label "Usar formatação de texto avançada">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Mostrar formatação de Texto Avançada">
+<!ENTITY formatString.label "Formato da string:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Expansão no formato da string:">
+<!ENTITY formatStringToolTip.after.label "Número de abas depois da aba corrente.">
+<!ENTITY formatStringToolTip.before.label "Número de abas antes da aba corrente.">
+<!ENTITY formatStringToolTip.current.label "Número da aba corrente.">
+<!ENTITY formatStringToolTip.number.label "Número total de abas.">
+<!ENTITY formatStringToolTip.visible_after.label "Número de abas visíveis depois da aba corrente.">
+<!ENTITY formatStringToolTip.visible_before.label "Número de abas visíveis antes da aba corrente.">
+<!ENTITY formatStringToolTip.visible_current.label "Número da aba corrente visível.">
+<!ENTITY formatStringToolTip.visible_number.label "Número total de abas visíveis.">
+<!ENTITY noAppTabs.label "Não contar abas de aplicação">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Desabilitar Dicas">
+<!ENTITY noTooltip.accesskey "T">

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://stylish/skin/edit.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/devtools/common.css" type="text/css"?>
+<?xul-overlay href="chrome://global/content/editMenuOverlay.xul"?>
+
+<!DOCTYPE window [
+	<!ENTITY % edit SYSTEM "chrome://stylish/locale/edit.dtd">
+	<!ENTITY % internaledit SYSTEM "chrome://global/locale/editMenuOverlay.dtd">
+	%edit;
+	%internaledit;
+]>
+
+<window
+	class="theme-body"
+	id="stylish-edit"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+	<html:link rel="icon" href="chrome://stylish/skin/16.png" style="display:none"/>
+
+	<script type="application/javascript" src="chrome://global/content/globalOverlay.js"/>
+	<script type="application/javascript" src="chrome://stylish/content/edit.js"/>
+	<script type="application/javascript" src="chrome://stylish/content/frame-utils.js"/>
+	<script type="application/javascript" src="chrome://stylish/content/common.js"/>
+	<script type="application/javascript;version=1.8" src="chrome://browser/content/devtools/theme-switching.js"></script>
+
+	<script type="application/javascript" src="chrome://itsalltext/content/API.js"/>
+
+	<stringbundle id="strings" src="chrome://stylish/locale/edit.properties"/>
+
+	<keyset>
+		<key id="save-key" modifiers="control" key="S" oncommand="save()"/>
+		<key id="find-key" modifiers="control" key="F" oncommand="document.getElementById('findbar').open();document.getElementById('findbar')._findField.focus()"/>
+	</keyset>
+
+	<menupopup id="sourceeditor-context">
+		<menuitem id="menu_undo"/>
+		<menuseparator/>
+		<menuitem id="menu_cut"/>
+		<menuitem id="menu_copy"/>
+		<menuitem id="menu_paste"/>
+		<menuitem id="menu_delete"/>
+		<menuseparator/>
+		<menuitem id="menu_selectAll" onclick="codeElementWrapper.setSelectionRange(0,codeElementWrapper.value.length)"/>
+	</menupopup>
+
+	<commandset id="editMenuCommands"/>
+
+	<vbox id="main-area" flex="1" class="theme-toolbar">
+		<hbox id="editor-tools">
+			<button class="devtools-toolbarbutton" id="save-button" label="&save;" accesskey="&save.ak;" oncommand="save()"/>
+			<button class="devtools-toolbarbutton" id="preview-button" label="&preview;" accesskey="&preview.ak;" oncommand="checkForErrors();preview()"/>
+			<button class="devtools-toolbarbutton" id="check-for-errors-button" label="&checkforerrors;" accesskey="&checkforerrors.ak;" oncommand="checkForErrors()"/>
+
+			<vbox class="devtools-separator"></vbox>
+
+			<button class="devtools-toolbarbutton" label="&insert;" accesskey="&insert.ak;" type="menu">
+				<menupopup>
+					<menuitem id="insert-html" label="&htmlnamespace;" accesskey="&htmlnamespace.ak;" oncommand="insertCodeAtStart(CSSHTMLNS);"/>
+					<menuitem id="insert-xul" label="&xulnamespace;" accesskey="&xulnamespace.ak;" oncommand="insertCodeAtStart(CSSXULNS);"/>
+					<menuitem id="insert-chrome-folder" label="&chromefolder;" accesskey="&chromefolder.ak;" oncommand="insertChromePath()"/>
+					<menuitem id="insert-data-uri" label="&dataURI;" accesskey="&dataURI.ak;" oncommand="insertDataURI()"/>
+				</menupopup>
+			</button>
+			<button id="itsalltext" label="&openintexternaleditor;" accesskey="&openintexternaleditor.ak;" itsalltext-control="internal-code" itsalltext-extension=".css" style="display: none;"/>
+			<checkbox id="wrap-lines" label="&wraplines;" accesskey="&wraplines.ak;" oncommand="changeWordWrap(this.checked)" style="display: none"/>
+		</hbox>
+		<separator orient="horizontal" class="devtools-horizontal-splitter"/>
+		<grid>
+			<columns>
+				<column/>
+				<column flex="1"/>
+			</columns>
+			<rows>
+				<row align="center">
+					<label control="name" accesskey="&name.ak;">&name;</label>
+					<textbox class="devtools-textinput" id="name" flex="1"/>
+				</row>
+				<row align="center" class="update-url-row">
+					<label control="update-url">Update URL</label>
+					<textbox class="devtools-textinput" id="update-url" flex="1"/>
+				</row>
+			</rows>
+		</grid>
+		<separator orient="horizontal" class="devtools-horizontal-splitter"/>
+		<deck id="editor" flex="1">
+			<textbox id="internal-code" multiline="true" flex="1"/>
+			<hbox id="sourceeditor" flex="1"/>
+		</deck>
+		<findbar class="theme-toolbar" id="findbar" browserid="internal-code"/>
+		<vbox class="theme-toolbar" id="errors" style="display:none;"/>
+	</vbox>
+
+</window>

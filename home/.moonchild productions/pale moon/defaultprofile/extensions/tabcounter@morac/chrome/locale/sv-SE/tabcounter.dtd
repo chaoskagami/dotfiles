@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Antal öppna flikar">
+<!ENTITY open_tabs "Öppna flikar:">
+<!ENTITY options.label "Inställningar">
+<!ENTITY options.accesskey "I">
+<!ENTITY options "Inställningar för Tab Counter">
+<!ENTITY cssInfo.label "Ändra text (klicka etiketter för CSS-info):">
+<!ENTITY color.label "Teckenfärg:">
+<!ENTITY color.accesskey "o">
+<!ENTITY fontSize.label "Teckenstorlek:">
+<!ENTITY fontSize.accesskey "s">
+<!ENTITY fontFamily.label "Teckensnittsfamilj:">
+<!ENTITY fontFamily.accesskey "t">
+<!ENTITY fontWeight.label "Teckengrovlek:">
+<!ENTITY fontWeight.accesskey "g">
+<!ENTITY optionText.label "Valfri text att visa…">
+<!ENTITY preText.label "Före numret:">
+<!ENTITY preText.accesskey "F">
+<!ENTITY postText.label "Efter numret:">
+<!ENTITY postText.accesskey "E">
+<!ENTITY apply.label "Verkställ">
+<!ENTITY useFormatString.label "Använd avancerad textformatering">
+<!ENTITY useFormatString.accesskey "c">
+<!ENTITY formatStringText.label "Avancerad text att visa…">
+<!ENTITY formatString.label "Formatsträng:">
+<!ENTITY formatString.accesskey "m">
+<!ENTITY formatStringToolTip.label "Formatsträngsutbyggnader:">
+<!ENTITY formatStringToolTip.after.label "Antal flikar efter aktuell flik.">
+<!ENTITY formatStringToolTip.before.label "Antal flikar före aktuell flik.">
+<!ENTITY formatStringToolTip.current.label "Numret för aktuell flik.">
+<!ENTITY formatStringToolTip.number.label "Totalt antal flikar.">
+<!ENTITY formatStringToolTip.visible_after.label "Antal synliga flikar efter aktuell flik.">
+<!ENTITY formatStringToolTip.visible_before.label "Antal synliga flikar före aktuell flik.">
+<!ENTITY formatStringToolTip.visible_current.label "Numret för aktuell synlig flik.">
+<!ENTITY formatStringToolTip.visible_number.label "Totalt antal synliga flikar.">
+<!ENTITY noAppTabs.label "Räkna inte programflikar">
+<!ENTITY noAppTabs.accesskey "R">
+<!ENTITY noTooltip.label "Visa inte verktygstips">
+<!ENTITY noTooltip.accesskey "t">

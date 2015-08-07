@@ -1,0 +1,31 @@
+#!/bin/sh
+
+
+SSLDIR=/etc/ssl
+URL=https://mxr.mozilla.org/mozilla/source/security/nss/lib/ckfw/builtins/certdata.txt?raw=1
+
+cd /tmp
+mkdir -p ssltmp
+chown -R root:root ssltmp
+chmod -R 700 ssltmp
+
+cd ssltmp
+
+
+rm -f certdata.txt   &&
+aria2c $URL          &&
+make-ca.sh
+
+rm -rf /etc/ssl/certs /etc/ssl/ca-bundle.crt
+
+remove-expired-certs.sh certs                                &&
+install -d ${SSLDIR}/certs                                   &&
+cp -v certs/*.pem ${SSLDIR}/certs                            &&
+c_rehash                                                     &&
+install BLFS-ca-bundle*.crt ${SSLDIR}/ca-bundle.crt          &&
+ln -sfv ../ca-bundle.crt ${SSLDIR}/certs/ca-certificates.crt &&
+unset SSLDIR
+
+cd /tmp && rm -rf ssltmp
+
+keytool -import -keystore /etc/ssl/java-cacerts -trustcacerts -file /etc/ssl/ca-bundle.crt -noprompt -storepass "changeit"

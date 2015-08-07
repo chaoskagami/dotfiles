@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Otvori brojac tabova">
+<!ENTITY open_tabs "Otvori tabove">
+<!ENTITY options.label "Postavke">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Postavke">
+<!ENTITY cssInfo.label "Promijeni tekst">
+<!ENTITY color.label "Boja slova">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Velicina slova">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "Tip slova">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Tezina teksta">
+<!ENTITY fontWeight.accesskey "W">
+<!ENTITY optionText.label "Prikazati vlastiti tekst...">
+<!ENTITY preText.label "Prije broja:">
+<!ENTITY preText.accesskey "B">
+<!ENTITY postText.label "Poslije broja:">
+<!ENTITY postText.accesskey "A">
+<!ENTITY apply.label "Primjeni">
+<!ENTITY useFormatString.label "Koristi napredno obradivanje teksta">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Napredni tekst">
+<!ENTITY formatString.label "Format niza:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Format ekspanzija">
+<!ENTITY formatStringToolTip.after.label "Broja tabova nakon trenutnog taba">
+<!ENTITY formatStringToolTip.before.label "Broja tabova prije trenutnog taba">
+<!ENTITY formatStringToolTip.current.label "Broj trenutnog taba">
+<!ENTITY formatStringToolTip.number.label "Ukupan broj tabova">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Number of the Current visible tab.">
+<!ENTITY formatStringToolTip.visible_number.label "Total Number of visible tabs.">
+<!ENTITY noAppTabs.label "Do not count app tabs">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "T">

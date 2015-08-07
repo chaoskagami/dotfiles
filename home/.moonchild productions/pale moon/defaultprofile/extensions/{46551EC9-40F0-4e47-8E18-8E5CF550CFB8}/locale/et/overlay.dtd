@@ -1,0 +1,18 @@
+<!ENTITY addfile "Installi fail...">
+<!ENTITY addfile.ak "I">
+<!ENTITY cmd.enable.label "Luba">
+<!ENTITY cmd.enable.accesskey "L">
+<!ENTITY cmd.disable.label "Keela">
+<!ENTITY cmd.disable.accesskey "K">
+<!ENTITY cmd.uninstall.label "Eemalda">
+<!ENTITY cmd.uninstall2.accesskey "E">
+<!ENTITY findstylebrowser "Leia stiile sellele lehele">
+<!ENTITY findstylebrowser.ak "L">
+<!ENTITY managestyles "Halda stiile...">
+<!ENTITY managestyles.ak "H">
+<!ENTITY turnon "Lülita kõik stiilid sisse">
+<!ENTITY turnon.ak "A">
+<!ENTITY turnoff "Lülita kõik stiilid välja">
+<!ENTITY turnoff.ak "A">
+<!ENTITY writestyle "Kirjuta uus stiil">
+<!ENTITY writestyle.ak "K">

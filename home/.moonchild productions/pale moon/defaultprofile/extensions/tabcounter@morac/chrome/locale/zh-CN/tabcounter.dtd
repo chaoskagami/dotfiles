@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "打开 Tab Count">
+<!ENTITY open_tabs "标签页总数:">
+<!ENTITY options.label "选项">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Tab Counter 选项">
+<!ENTITY cssInfo.label "定制文字(点击查看 CSS 信息)">
+<!ENTITY color.label "颜色:">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "大小:">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "字体:">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "宽度:">
+<!ENTITY fontWeight.accesskey "W">
+<!ENTITY optionText.label "可选显示文字">
+<!ENTITY preText.label "数字之前:">
+<!ENTITY preText.accesskey "B">
+<!ENTITY postText.label "数字之后:">
+<!ENTITY postText.accesskey "A">
+<!ENTITY apply.label "应用">
+<!ENTITY useFormatString.label "自定义显示格式">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "显示格式...">
+<!ENTITY formatString.label "字符串:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "字符串定义:">
+<!ENTITY formatStringToolTip.after.label "当前标签页之后的标签页总数">
+<!ENTITY formatStringToolTip.before.label "当前标签页之前的标签页总数">
+<!ENTITY formatStringToolTip.current.label "当前标签页的位置">
+<!ENTITY formatStringToolTip.number.label "标签页总数">
+<!ENTITY formatStringToolTip.visible_after.label "当前标签后页的可见标签数。">
+<!ENTITY formatStringToolTip.visible_before.label "当前标签前的可见标签页数。">
+<!ENTITY formatStringToolTip.visible_current.label "正在浏览的标签也数。">
+<!ENTITY formatStringToolTip.visible_number.label "可见标签页总数。">
+<!ENTITY noAppTabs.label "不计算固定标签页">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "禁用提示">
+<!ENTITY noTooltip.accesskey "T">

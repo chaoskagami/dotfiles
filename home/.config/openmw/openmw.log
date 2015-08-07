@@ -1,0 +1,25 @@
+Installing crash catcher
+OpenMW version 0.36.0 (revision ad6764fa6a)
+Loading config file: /home/patch/.config/openmw/openmw.cfg... done.
+Loading config file: /etc/openmw/openmw.cfg... done.
+Using default (English) font encoding.
+Adding BSA archive /home/patch/Games/Data/OMW/Data Files/Morrowind.bsa
+Adding BSA archive /home/patch/Games/Data/OMW/Data Files/Tribunal.bsa
+Adding BSA archive /home/patch/Games/Data/OMW/Data Files/Bloodmoon.bsa
+Adding data directory /home/patch/Games/Data/OMW/Data Files
+Adding data directory /usr/share/games/openmw/data
+Sound output: OpenAL
+Sound decoder: FFmpeg
+Enumerated output devices:
+  ALSA Default
+  HDA Intel HDMI, HDMI 0 (CARD=HDMI,DEV=3)
+  HDA Intel HDMI, HDMI 1 (CARD=HDMI,DEV=7)
+  HDA Intel HDMI, HDMI 2 (CARD=HDMI,DEV=8)
+  HDA Intel PCH, ALC269VB Analog (CARD=PCH,DEV=0)
+Opened "ALSA Default"
+Loading content file Morrowind.esm
+Loading content file Tribunal.esm
+Loading content file Bloodmoon.esm
+Playing music/explore/mx_explore_3.mp3
+Playing Music/Special/morrowind title.mp3
+Quitting peacefully.

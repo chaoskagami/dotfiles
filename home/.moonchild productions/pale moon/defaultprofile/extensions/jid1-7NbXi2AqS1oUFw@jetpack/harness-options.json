@@ -1,0 +1,66 @@
+{
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid1-7NbXi2AqS1oUFw@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "exhentai_easy2/main", 
+ "manifest": {
+  "exhentai_easy2/main": {
+   "docsSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 
+   "jsSHA256": "a2414a4378b589f39cd54905becd7f77213bd3c72d887d732957fd3751a1e3b8", 
+   "moduleName": "main", 
+   "packageName": "exhentai_easy2", 
+   "requirements": {
+    "sdk/notifications": "sdk/notifications", 
+    "sdk/page-mod": "sdk/page-mod", 
+    "sdk/request": "sdk/request", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-storage": "sdk/simple-storage", 
+    "sdk/tabs": "sdk/tabs"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "exhentai_easy2": {
+   "author": "Haruhichan (http://haruhichan.com)", 
+   "description": "Login to ExHentai with no problems!", 
+   "homepage": "http://haruhichan.com/forum/showthread.php?24909-Firefox-ExHentai-Easy-v2-Get-past-sad-panda!", 
+   "keywords": [
+    "exhentai", 
+    "hentai", 
+    "anime", 
+    "sadpanda", 
+    "panda"
+   ], 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "exhentai_easy2", 
+   "permissions": {
+    "private-browsing": true
+   }, 
+   "version": "0.2.6"
+  }
+ }, 
+ "name": "exhentai_easy2", 
+ "parseable": false, 
+ "sdkVersion": "1.15", 
+ "staticArgs": {}, 
+ "verbose": false
+}

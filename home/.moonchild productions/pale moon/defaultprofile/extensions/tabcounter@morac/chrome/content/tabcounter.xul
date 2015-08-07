@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://tabcounter-morac/locale/tabcounter.dtd">
+
+<overlay id="tabcounter-mainOverlay" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbaritem id="tabcounter-toolbar-item" context="tabcounter-ContextMenu" style="padding: 3px;"
+                   pack="center" align="center" title="&open_tab_count;" tooltiptext="&open_tabs;">
+      <label value="?" pack="center" align="center" style="padding:0px; margin:0px;" id="tabcounter-tabcount"
+             tooltiptext="&open_tabs;"/>
+    </toolbaritem>
+  </toolbarpalette>
+
+  <popupset id="mainPopupSet"> 
+		<menupopup id="tabcounter-ContextMenu">
+			<menuitem label="&options.label;" accesskey="&options.accesskey;" oncommand="gTabCounter.openOptions();"/>
+		</menupopup>
+  </popupset>
+
+</overlay>

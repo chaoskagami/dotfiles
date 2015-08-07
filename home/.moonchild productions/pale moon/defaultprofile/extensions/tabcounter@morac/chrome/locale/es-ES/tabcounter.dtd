@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Contar las pestañas abiertas">
+<!ENTITY open_tabs "Pestañas abiertas:">
+<!ENTITY options.label "Opciones">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Tab Counter - Opciones">
+<!ENTITY cssInfo.label "Cambiar texto (pulsar en las etiquetas para información de CSS):">
+<!ENTITY color.label "Color de la fuente:">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Tamaño de la fuente:">
+<!ENTITY fontSize.accesskey "T">
+<!ENTITY fontFamily.label "Familia de la fuente:">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Ancho de la fuente:">
+<!ENTITY fontWeight.accesskey "A">
+<!ENTITY optionText.label "Texto opcional a mostrar...">
+<!ENTITY preText.label "Antes del número:">
+<!ENTITY preText.accesskey "n">
+<!ENTITY postText.label "Después del número:">
+<!ENTITY postText.accesskey "D">
+<!ENTITY apply.label "Aplicar">
+<!ENTITY useFormatString.label "Usar formato de texto avanzado">
+<!ENTITY useFormatString.accesskey "v">
+<!ENTITY formatStringText.label "Texto avanzado a mostrar...">
+<!ENTITY formatString.label "Cadena de formato:">
+<!ENTITY formatString.accesskey "o">
+<!ENTITY formatStringToolTip.label "Correspondencia de las cadenas de formato:">
+<!ENTITY formatStringToolTip.after.label "Número de pestañas tras la pestaña actual.">
+<!ENTITY formatStringToolTip.before.label "Número de pestañas antes de la pestaña actual.">
+<!ENTITY formatStringToolTip.current.label "Número de la pestaña actual.">
+<!ENTITY formatStringToolTip.number.label "Número total de pestañas.">
+<!ENTITY formatStringToolTip.visible_after.label "Número de pestañas visibles tras la actual.">
+<!ENTITY formatStringToolTip.visible_before.label "Número de pestañas visibles antes de la actual.">
+<!ENTITY formatStringToolTip.visible_current.label "Número de la pestaña visible.">
+<!ENTITY formatStringToolTip.visible_number.label "Total de pestañas visibles.">
+<!ENTITY noAppTabs.label "No contar pestañas de aplicaciones">
+<!ENTITY noAppTabs.accesskey "N">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "T">

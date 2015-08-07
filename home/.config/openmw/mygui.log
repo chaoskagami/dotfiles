@@ -1,0 +1,130 @@
+21:41:22  |  Platform  |  Info  |  * Initialise: RenderManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreRenderManager.cpp  |  43
+21:41:22  |  Platform  |  Info  |  RenderManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreRenderManager.cpp  |  71
+21:41:22  |  Platform  |  Info  |  * Initialise: DataManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreDataManager.cpp  |  27
+21:41:22  |  Platform  |  Info  |  DataManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreDataManager.cpp  |  35
+21:41:22  |  Core  |  Info  |  * Initialise: Gui  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Gui.cpp  |  61
+21:41:22  |  Core  |  Info  |  * MyGUI version 3.2.1.Unversioned directory  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Gui.cpp  |  68
+21:41:22  |  Core  |  Info  |  * Initialise: ResourceManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  32
+21:41:22  |  Core  |  Info  |  ResourceManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  40
+21:41:22  |  Core  |  Info  |  * Initialise: LayerManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  33
+21:41:22  |  Core  |  Info  |  LayerManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  41
+21:41:22  |  Core  |  Info  |  * Initialise: WidgetManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_WidgetManager.cpp  |  53
+21:41:22  |  Core  |  Info  |  WidgetManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_WidgetManager.cpp  |  84
+21:41:22  |  Core  |  Info  |  * Initialise: InputManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_InputManager.cpp  |  46
+21:41:22  |  Core  |  Info  |  InputManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_InputManager.cpp  |  66
+21:41:22  |  Core  |  Info  |  * Initialise: SubWidgetManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SubWidgetManager.cpp  |  36
+21:41:22  |  Core  |  Info  |  SubWidgetManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SubWidgetManager.cpp  |  56
+21:41:22  |  Core  |  Info  |  * Initialise: SkinManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  36
+21:41:22  |  Core  |  Info  |  SkinManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  46
+21:41:22  |  Core  |  Info  |  * Initialise: FontManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FontManager.cpp  |  32
+21:41:22  |  Core  |  Info  |  FontManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FontManager.cpp  |  42
+21:41:22  |  Core  |  Info  |  * Initialise: ControllerManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ControllerManager.cpp  |  32
+21:41:22  |  Core  |  Info  |  ControllerManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ControllerManager.cpp  |  40
+21:41:22  |  Core  |  Info  |  * Initialise: PointerManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PointerManager.cpp  |  43
+21:41:22  |  Core  |  Info  |  PointerManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PointerManager.cpp  |  62
+21:41:22  |  Core  |  Info  |  * Initialise: ClipboardManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ClipboardManager.cpp  |  32
+21:41:22  |  Core  |  Info  |  ClipboardManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ClipboardManager.cpp  |  39
+21:41:22  |  Core  |  Info  |  * Initialise: LayoutManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayoutManager.cpp  |  28
+21:41:22  |  Core  |  Info  |  LayoutManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayoutManager.cpp  |  35
+21:41:22  |  Core  |  Info  |  * Initialise: DynLibManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_DynLibManager.cpp  |  26
+21:41:22  |  Core  |  Info  |  DynLibManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_DynLibManager.cpp  |  30
+21:41:22  |  Core  |  Info  |  * Initialise: PluginManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PluginManager.cpp  |  30
+21:41:22  |  Core  |  Info  |  PluginManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PluginManager.cpp  |  34
+21:41:22  |  Core  |  Info  |  * Initialise: LanguageManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LanguageManager.cpp  |  30
+21:41:22  |  Core  |  Info  |  LanguageManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LanguageManager.cpp  |  34
+21:41:22  |  Core  |  Info  |  * Initialise: FactoryManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FactoryManager.cpp  |  25
+21:41:22  |  Core  |  Info  |  FactoryManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FactoryManager.cpp  |  27
+21:41:22  |  Core  |  Info  |  * Initialise: ToolTipManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ToolTipManager.cpp  |  33
+21:41:22  |  Core  |  Info  |  ToolTipManager successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ToolTipManager.cpp  |  45
+21:41:22  |  Core  |  Info  |  Gui successfully initialized  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Gui.cpp  |  119
+21:41:22  |  Core  |  Info  |  Load ini file 'skins.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'core.skin'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_resources.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_font.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'MonoFont' using texture size 256 x 128.  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceTrueTypeFont.cpp  |  769
+21:41:22  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'MonoFont' using real height 14 pixels.  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceTrueTypeFont.cpp  |  770
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_text.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_windows.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_button.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_list.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_edit.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_box.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_progress.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_hud_energybar.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_hud_box.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_mainmenu.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_console.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_journal.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_map_window.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_dialogue_window.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_scroll.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_debug_window.skin.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_layers.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_pointer.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:41:22  |  Core  |  Info  |  Load ini file 'openmw_settings.xml'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  114
+21:47:01  |  Core  |  Warning  |  Widget property 'WordWrap' not found [openmw_infobox.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:49:23  |  Core  |  Warning  |  Widget property 'Caption' not found [openmw_chargen_review.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:49:23  |  Core  |  Warning  |  Widget property 'Caption' not found [openmw_chargen_review.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:49:23  |  Core  |  Warning  |  Widget property 'Caption' not found [openmw_chargen_review.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:49:33  |  Core  |  Warning  |  Widget property 'WordWrap' not found [openmw_infobox.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:51:24  |  Core  |  Warning  |  Widget property 'Caption' not found [openmw_chargen_review.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:51:24  |  Core  |  Warning  |  Widget property 'Caption' not found [openmw_chargen_review.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:51:24  |  Core  |  Warning  |  Widget property 'Caption' not found [openmw_chargen_review.layout]  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Widget.cpp  |  1208
+21:51:48  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:52:23  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:52:23  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:52:53  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:52:53  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:53:11  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:53:41  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:53:41  |  Core  |  Error  |  Skin 'Widget' not found. Replaced with default skin. []  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  92
+21:57:54  |  Core  |  Info  |  * Shutdown: Gui  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Gui.cpp  |  133
+21:57:54  |  Core  |  Info  |  * Shutdown: PointerManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PointerManager.cpp  |  69
+21:57:54  |  Core  |  Info  |  PointerManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PointerManager.cpp  |  86
+21:57:54  |  Core  |  Info  |  * Shutdown: InputManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_InputManager.cpp  |  73
+21:57:54  |  Core  |  Info  |  InputManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_InputManager.cpp  |  78
+21:57:54  |  Core  |  Info  |  * Shutdown: SkinManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  53
+21:57:54  |  Core  |  Info  |  SkinManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SkinManager.cpp  |  60
+21:57:54  |  Core  |  Info  |  * Shutdown: SubWidgetManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SubWidgetManager.cpp  |  63
+21:57:54  |  Core  |  Info  |  SubWidgetManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_SubWidgetManager.cpp  |  83
+21:57:54  |  Core  |  Info  |  * Shutdown: LayerManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  48
+21:57:54  |  Core  |  Info  |  destroy layer 'Render'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'HUD'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Menu'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Windows'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Console'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Debug'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Notification'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Popup'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'DragAndDrop'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'LoadingScreen'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Overlay'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  destroy layer 'Pointer'  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  191
+21:57:54  |  Core  |  Info  |  LayerManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayerManager.cpp  |  59
+21:57:54  |  Core  |  Info  |  * Shutdown: FontManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FontManager.cpp  |  49
+21:57:54  |  Core  |  Info  |  FontManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FontManager.cpp  |  57
+21:57:54  |  Core  |  Info  |  * Shutdown: ControllerManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ControllerManager.cpp  |  47
+21:57:54  |  Core  |  Info  |  ControllerManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ControllerManager.cpp  |  56
+21:57:54  |  Core  |  Info  |  * Shutdown: ClipboardManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ClipboardManager.cpp  |  46
+21:57:54  |  Core  |  Info  |  ClipboardManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ClipboardManager.cpp  |  54
+21:57:54  |  Core  |  Info  |  * Shutdown: LayoutManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayoutManager.cpp  |  42
+21:57:54  |  Core  |  Info  |  LayoutManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LayoutManager.cpp  |  49
+21:57:54  |  Core  |  Info  |  * Shutdown: PluginManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PluginManager.cpp  |  41
+21:57:54  |  Core  |  Info  |  PluginManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_PluginManager.cpp  |  46
+21:57:54  |  Core  |  Info  |  * Shutdown: DynLibManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_DynLibManager.cpp  |  37
+21:57:54  |  Core  |  Info  |  DynLibManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_DynLibManager.cpp  |  44
+21:57:54  |  Core  |  Info  |  * Shutdown: LanguageManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LanguageManager.cpp  |  41
+21:57:54  |  Core  |  Info  |  LanguageManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_LanguageManager.cpp  |  45
+21:57:54  |  Core  |  Info  |  * Shutdown: ResourceManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  47
+21:57:54  |  Core  |  Info  |  ResourceManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ResourceManager.cpp  |  57
+21:57:54  |  Core  |  Info  |  * Shutdown: FactoryManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FactoryManager.cpp  |  34
+21:57:54  |  Core  |  Info  |  FactoryManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_FactoryManager.cpp  |  36
+21:57:54  |  Core  |  Info  |  * Shutdown: ToolTipManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ToolTipManager.cpp  |  52
+21:57:54  |  Core  |  Info  |  ToolTipManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_ToolTipManager.cpp  |  57
+21:57:54  |  Core  |  Info  |  * Shutdown: WidgetManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_WidgetManager.cpp  |  91
+21:57:54  |  Core  |  Info  |  WidgetManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_WidgetManager.cpp  |  100
+21:57:54  |  Core  |  Info  |  Gui successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/MyGUIEngine/src/MyGUI_Gui.cpp  |  179
+21:57:54  |  Platform  |  Info  |  * Shutdown: RenderManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreRenderManager.cpp  |  78
+21:57:54  |  Platform  |  Info  |  RenderManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreRenderManager.cpp  |  86
+21:57:54  |  Platform  |  Info  |  * Shutdown: DataManager  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreDataManager.cpp  |  42
+21:57:54  |  Platform  |  Info  |  DataManager successfully shutdown  |  /var/tmp/portage/dev-games/mygui-3.2.1/work/mygui-MyGUI3.2.1/Platforms/Ogre/OgrePlatform/src/MyGUI_OgreDataManager.cpp  |  44

@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Бројање отворених језичака">
+<!ENTITY open_tabs "Отворених језичака:">
+<!ENTITY options.label "Опције">
+<!ENTITY options.accesskey "О">
+<!ENTITY options "Опције бројача језичака">
+<!ENTITY cssInfo.label "Измени текст (кликните наслове за информације о CSS):">
+<!ENTITY color.label "Боја фонта:">
+<!ENTITY color.accesskey "Б">
+<!ENTITY fontSize.label "Величина фонта:">
+<!ENTITY fontSize.accesskey "В">
+<!ENTITY fontFamily.label "Породица фонта:">
+<!ENTITY fontFamily.accesskey "П">
+<!ENTITY fontWeight.label "Подебљаност фонта:">
+<!ENTITY fontWeight.accesskey "д">
+<!ENTITY optionText.label "Жељени текст за приказ...">
+<!ENTITY preText.label "Пре броја:">
+<!ENTITY preText.accesskey "П">
+<!ENTITY postText.label "После броја:">
+<!ENTITY postText.accesskey "О">
+<!ENTITY apply.label "Примени">
+<!ENTITY useFormatString.label "Користи напредно обликовање текста">
+<!ENTITY useFormatString.accesskey "К">
+<!ENTITY formatStringText.label "Напредни текст за приказ...">
+<!ENTITY formatString.label "Низ облика:">
+<!ENTITY formatString.accesskey "О">
+<!ENTITY formatStringToolTip.label "Продужеци низа облика:">
+<!ENTITY formatStringToolTip.after.label "Број језичака после тренутног језичка">
+<!ENTITY formatStringToolTip.before.label "Број језичака пре тренутног језичка.">
+<!ENTITY formatStringToolTip.current.label "Број тренутног језичка.">
+<!ENTITY formatStringToolTip.number.label "Укупан број језичака.">
+<!ENTITY formatStringToolTip.visible_after.label "Број видљивих језичака после тренутног">
+<!ENTITY formatStringToolTip.visible_before.label "Број видљивих језичака пре тренутног">
+<!ENTITY formatStringToolTip.visible_current.label "Број тренутног видљивог језичка">
+<!ENTITY formatStringToolTip.visible_number.label "Укупан број видљивих језичака">
+<!ENTITY noAppTabs.label "Не број језичке апликација">
+<!ENTITY noAppTabs.accesskey "а">
+<!ENTITY noTooltip.label "Онемогући опис алатке">
+<!ENTITY noTooltip.accesskey "О">

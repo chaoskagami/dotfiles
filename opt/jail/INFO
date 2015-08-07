@@ -1,0 +1,6 @@
+This is essentially a custom containering system. Jails, if you prefer. Do note that this uses chroots. What this means; use grsecurity or it isn't secure. It's not overly complex and stupid like Docker (why is that even a thing?) and it's also incredibly tailored for my use. I can't include some directories because -march=native...ugh.
+
+base should be files shared between instances. This is binded RO.
+data should be data for specific configs. This is binded RW.
+mods should be chunks of code needed to operate, e.g. JVM. This is binded RO.
+root should contain scripts to attach a system.

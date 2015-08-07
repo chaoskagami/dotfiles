@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Отвори го Tab Count">
+<!ENTITY open_tabs "Отвори Јазичиња:">
+<!ENTITY options.label "Опции">
+<!ENTITY options.accesskey "О">
+<!ENTITY options "Tab Counter Опции">
+<!ENTITY cssInfo.label "Промени Текст (притисни етикети за CSS информација):">
+<!ENTITY color.label "Боја на Фонтот:">
+<!ENTITY color.accesskey "Б">
+<!ENTITY fontSize.label "Големина на Фонтот:">
+<!ENTITY fontSize.accesskey "Г">
+<!ENTITY fontFamily.label "Фамилија на Фонтот:">
+<!ENTITY fontFamily.accesskey "Ф">
+<!ENTITY fontWeight.label "Тежина на Фонтот:">
+<!ENTITY fontWeight.accesskey "Т">
+<!ENTITY optionText.label "Изборен Текст за прикажување...">
+<!ENTITY preText.label "Пред бројот:">
+<!ENTITY preText.accesskey "П">
+<!ENTITY postText.label "После бројот:">
+<!ENTITY postText.accesskey "А">
+<!ENTITY apply.label "Примени">
+<!ENTITY useFormatString.label "Користи напредно форматирање на текст">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Напреден текст за прикажување...">
+<!ENTITY formatString.label "Формат на низата:">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Експанзии на форматот на низата:">
+<!ENTITY formatStringToolTip.after.label "Број на јазичиња после моменталното јазиче.">
+<!ENTITY formatStringToolTip.before.label "Број на јазичиња пред моменталното јазиче.">
+<!ENTITY formatStringToolTip.current.label "Број на моменталното јазиче.">
+<!ENTITY formatStringToolTip.number.label "Вкупен број на јазичиња.">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Number of the Current visible tab.">
+<!ENTITY formatStringToolTip.visible_number.label "Total Number of visible tabs.">
+<!ENTITY noAppTabs.label "Do not count app tabs">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "T">

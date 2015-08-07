@@ -1,0 +1,56 @@
+#!/bin/bash
+
+if [ "$1" == "" ]; then
+	echo "[?] Specify a jail."
+	exit 1
+fi
+
+die() {
+	echo "[!] Failed to $1. Things may be left inconsistent."
+	exit 1
+}
+
+execdaemon() {
+	daemon="$1"
+
+	echo "[?] Entering jail dir..."
+
+	cd root
+
+	echo "[?] Sourcing ${daemon}.sh..."
+
+	. ${daemon}.sh || die "source ${daemon}.sh"
+
+	echo "[?] Running daemon init function..."
+
+	init || die "init $(daemon)"
+
+	echo "[?] Entering daemon directory..."
+
+	cd $daemon || die "enter"
+
+	echo "[?] Mounting proc, sysfs, tmpfs..."
+
+	mount -t proc none proc || die "mount proc"
+	mount -t sysfs none sys || die "mount sysfs"
+	mount -t tmpfs tmpfs tmp || die "mount tmpfs"
+
+	echo "[?] Entering chroot..."
+
+	# This command must not exit.
+	env -i chroot --userspec=9999:9999 . /bin/bash -c "${DAEMONSTART}"
+
+	echo "[?] Umount proc, sysfs, tmpfs..."
+
+	umount proc || die "umount proc"
+	umount sys || die "umount sysfs"
+	umount tmp || die "umount tmpfs"
+
+	cd ..
+
+	echo "[?] Running daemon deinit..."
+
+	deinit || die "deinit ${daemon}"
+}
+
+( execdaemon "$1" ) &

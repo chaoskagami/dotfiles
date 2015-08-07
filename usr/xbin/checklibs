@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Searches through lib directory to see if a library references another library.
+# I use this to manually check whether an update broke references.
+
+if [ "$1" == "" ] || [ "$2" == "" ]; then
+	echo "Usage: $0 libdir refcheck"
+	exit 0
+fi
+
+WHERE=$1
+WHAT=$2
+for CURRENT in $WHERE/*; do
+	# If WHAT occurs in ldd output, then echothe name of what's being checked.
+	(ldd "$CURRENT" 2>/dev/null | grep "$WHAT" 2>/dev/null) && echo "$CURRENT"
+done

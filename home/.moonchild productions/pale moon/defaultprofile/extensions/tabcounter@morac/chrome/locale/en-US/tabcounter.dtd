@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Open Tab Count">
+<!ENTITY open_tabs "Open Tabs: ">
+<!ENTITY options.label "Options">
+<!ENTITY options.accesskey "O">
+<!ENTITY options "Tab Counter Options">
+<!ENTITY cssInfo.label "Change Text (click labels for CSS info):">
+<!ENTITY color.label "Font Color: ">
+<!ENTITY color.accesskey "C">
+<!ENTITY fontSize.label "Font Size: ">
+<!ENTITY fontSize.accesskey "S">
+<!ENTITY fontFamily.label "Font Family: ">
+<!ENTITY fontFamily.accesskey "F">
+<!ENTITY fontWeight.label "Font Weight: ">
+<!ENTITY fontWeight.accesskey "W">
+<!ENTITY optionText.label "Optional Text to display...">
+<!ENTITY preText.label "Before number: ">
+<!ENTITY preText.accesskey "B">
+<!ENTITY postText.label "After number: ">
+<!ENTITY postText.accesskey "A">
+<!ENTITY apply.label "Apply">
+<!ENTITY useFormatString.label "Use advanced text formatting">
+<!ENTITY useFormatString.accesskey "V">
+<!ENTITY formatStringText.label "Advanced Text to display...">
+<!ENTITY formatString.label "Format String: ">
+<!ENTITY formatString.accesskey "O">
+<!ENTITY formatStringToolTip.label "Format String Expansions:">
+<!ENTITY formatStringToolTip.after.label "Number of tabs After the current tab.">
+<!ENTITY formatStringToolTip.before.label "Number of tabs Before the current tab.">
+<!ENTITY formatStringToolTip.current.label "Number of the Current tab.">
+<!ENTITY formatStringToolTip.number.label "Total Number of tabs.">
+<!ENTITY formatStringToolTip.visible_after.label "Number of visible tabs After the current tab.">
+<!ENTITY formatStringToolTip.visible_before.label "Number of visible tabs Before the current tab.">
+<!ENTITY formatStringToolTip.visible_current.label "Number of the Current visible tab.">
+<!ENTITY formatStringToolTip.visible_number.label "Total Number of visible tabs.">
+<!ENTITY noAppTabs.label "Do not count app tabs">
+<!ENTITY noAppTabs.accesskey "D">
+<!ENTITY noTooltip.label "Disable tooltip">
+<!ENTITY noTooltip.accesskey "i">

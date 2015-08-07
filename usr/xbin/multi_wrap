@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Minimal thing. This is used to run a multi-rooted program.
+# I have links to this for autoconf, automake, etc.
+
+ver="$(cat /usr/multi/$1/use)"
+PATH="/usr/multi/$1/$ver/$2"
+shift 2
+exec $PATH "$@"
+

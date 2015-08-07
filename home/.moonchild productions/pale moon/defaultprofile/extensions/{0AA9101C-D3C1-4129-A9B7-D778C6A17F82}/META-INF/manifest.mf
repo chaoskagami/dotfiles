@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZrTzOdRabYOZVSsmafB3Ug==
+SHA1-Digest: tqnyAz5ygD+Nzyob2wtQZpaJC/g=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /L0pKXijJAPeHnYdy2AUDA==
+SHA1-Digest: +nrZdz70/B2mFu40CtSPaODZXds=
+
+Name: chrome/rikaichan.jar
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GyGjjJLkyl40pNK2wqTKMQ==
+SHA1-Digest: zLYIEPygT9Df0DtQDLPTxGrl6zk=
+
+Name: defaults/preferences/rikaichan.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Mmacyx8pnIzRjg9d2sVE2Q==
+SHA1-Digest: 05xC5qkYARyLthGOfP+JtLU7ADc=
+
+Name: license.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 63I7YVOf7vAT3kduaLXFCg==
+SHA1-Digest: tHRW4sHzjEA0b/ANuXaiut82teM=
+

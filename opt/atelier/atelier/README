@@ -1,0 +1,25 @@
+Atelier is a system monitoring tool, much like conky.
+
+It's not conky, and contains no code from conky. It also functions nothing
+like conky, nor is it configured like conky. That being the case, it CAN
+do most things conky can do at this point - albeit with 1-2% higher CPU use
+(which I'll see if that can be resolved.)
+
+Atelier is based on the nw.js framework. Since this is web and javascript
+code, it's pretty easy to figure out how you do things. Importantly, however,
+is the fact that the web page is really just the template by which a
+javascript event loop inserts the actual data. It also means MUCH more
+simple styling than conky - no more asshole color commands strewn about.
+CSS edits, and done.
+
+More benefits - this also means the entirety of node.js,
+npm modules and HTML rendering is available - some crazy formatting can
+be done that couldn't with conky Like sideways monitors, my current
+favorite impossibility without conky lua.
+
+Since it's intended to be modified heavily, I can't use GPL in good faith.
+I'm licensing this under the MIT for my sanity's sake. Nw.js uses the same.
+
+Why Atelier as the name? I've been playing a game involving alchemy 
+lately, and we all know by this point I like to name tools after things 
+I like. Totori may have been a more appropriate name. ;P

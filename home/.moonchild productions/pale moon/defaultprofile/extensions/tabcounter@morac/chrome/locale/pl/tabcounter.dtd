@@ -1,0 +1,38 @@
+<!ENTITY open_tab_count "Licznik otwartych kart">
+<!ENTITY open_tabs "Otwarte karty:">
+<!ENTITY options.label "Ustawienia">
+<!ENTITY options.accesskey "U">
+<!ENTITY options "Tab Counter - ustawienia">
+<!ENTITY cssInfo.label "Wprowadź parametry elementów. Pomoc jest dostępna po kliknięciu nazwy elementu.">
+<!ENTITY color.label "Kolor czcionki:">
+<!ENTITY color.accesskey "K">
+<!ENTITY fontSize.label "Rozmiar czcionki:">
+<!ENTITY fontSize.accesskey "R">
+<!ENTITY fontFamily.label "Zestaw czcionek:">
+<!ENTITY fontFamily.accesskey "Z">
+<!ENTITY fontWeight.label "Grubość czcionki:">
+<!ENTITY fontWeight.accesskey "G">
+<!ENTITY optionText.label "Opcjonalny tekst do wyświetlenia:">
+<!ENTITY preText.label "Przed liczbą:">
+<!ENTITY preText.accesskey "P">
+<!ENTITY postText.label "Po liczbie:">
+<!ENTITY postText.accesskey "O">
+<!ENTITY apply.label "Zastosuj">
+<!ENTITY useFormatString.label "Użyj zaawansowanego formatowania tekstu">
+<!ENTITY useFormatString.accesskey "a">
+<!ENTITY formatStringText.label "Zaawansowany tekst do wyświetlenia…">
+<!ENTITY formatString.label "Format stringu:">
+<!ENTITY formatString.accesskey "F">
+<!ENTITY formatStringToolTip.label "Rozbudowa formatu stringu:">
+<!ENTITY formatStringToolTip.after.label "Liczba kart po aktywnej karcie">
+<!ENTITY formatStringToolTip.before.label "Liczba kart przed aktywną kartą">
+<!ENTITY formatStringToolTip.current.label "Liczba aktywnych kart">
+<!ENTITY formatStringToolTip.number.label "Całkowita liczba kart">
+<!ENTITY formatStringToolTip.visible_after.label "Liczba widocznych kart po aktywnej karcie.">
+<!ENTITY formatStringToolTip.visible_before.label "Liczba widocznych kart przed aktywną kartą.">
+<!ENTITY formatStringToolTip.visible_current.label "Liczba aktualnie widocznych kart.">
+<!ENTITY formatStringToolTip.visible_number.label "Całkowita liczba widocznych kart.">
+<!ENTITY noAppTabs.label "Nie zliczaj kart aplikacji">
+<!ENTITY noAppTabs.accesskey "C">
+<!ENTITY noTooltip.label "Wyłącz podpowiedzi">
+<!ENTITY noTooltip.accesskey "D">

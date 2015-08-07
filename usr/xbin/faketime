@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This uses libfaketime https://github.com/wolfcw/libfaketime to fake a system time.
+# It is just meant to ease use a bit, really.
+
+export FAKETIME="$1"
+export LD_PRELOAD="/opt/preloader/libfaketime.so.1"
+shift
+exec "$@"

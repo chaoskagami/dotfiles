@@ -1,0 +1,12 @@
+[submodule "home/.config/awesome/vain"]
+	path = home/.config/awesome/vain
+	url = https://github.com/copycat-killer/vain-again.git
+[submodule "home/.config/awesome/lain"]
+	path = home/.config/awesome/lain
+	url = https://github.com/copycat-killer/lain.git
+[submodule "home/.config/awesome/obvious"]
+	path = home/.config/awesome/obvious
+	url = https://github.com/hoelzro/obvious.git
+[submodule "home/.config/awesome/vicious"]
+	path = home/.config/awesome/vicious
+	url = http://git.sysphere.org/vicious

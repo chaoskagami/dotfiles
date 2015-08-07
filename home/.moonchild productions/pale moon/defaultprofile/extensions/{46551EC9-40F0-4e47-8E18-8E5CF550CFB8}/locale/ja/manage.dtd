@@ -1,0 +1,10 @@
+<!ENTITY filter "検索">
+<!ENTITY installfromurls "URLからインストール...">
+<!ENTITY managetitle "Stylish">
+<!ENTITY nostylesstart "Stylish の使い方に関する情報は">
+<!ENTITY nostylesend "をご覧ください。">
+<!ENTITY sortenabled "有効無効">
+<!ENTITY sortname "名前">
+<!ENTITY sorttype "種類">
+<!ENTITY writenew "新しいスタイルを書く">
+<!ENTITY writenew.ak "W">

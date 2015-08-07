@@ -1,0 +1,181 @@
+#!/bin/bash
+
+# Builds and configures wine. Note that some things
+# are...different about how I  do things. This is okay.
+
+if [ "$1" = "" ]; then
+	echo "Usage: $0 wine-ver"
+	exit 1
+fi
+
+if [ "$JUST_FIX" = "1" ]; then
+	DONT_BUILD=1
+else
+	DONT_BUILD=0
+fi
+
+if [ "$STAGING" = "" ]; then
+	STAGING=1
+fi
+
+if [ "$FIXFONTS" = "" ]; then
+	FIXFONTS=1
+fi
+
+FILEDIR="./dists"
+WINETB="${FILEDIR}/wine-${1}.tar.bz2"
+STGTB="${FILEDIR}/wine-staging-${1}.tar.gz"
+
+mkdir -p $FILEDIR
+
+if [ ! -e "$WINETB" ]; then
+	echo "[?] Fetching wine tarball..."
+	wget --quiet "http://prdownloads.sourceforge.net/wine/wine-${1}.tar.bz2" -O "$WINETB"
+	R=$?
+	if [ ! $R = 0 ]; then
+		wget --quiet "http://mirrors.ibiblio.org/wine/source/1.7/wine-${1}.tar.bz2" -O "$WINETB"
+	fi
+fi
+
+if [ ! -e "$STGTB" ] && [ "$STAGING" = "1" ]; then
+	echo "[?] Fetching wine-staging tarball..."
+	wget --quiet "https://github.com/wine-compholio/wine-staging/archive/v${1}.tar.gz" -O "$STGTB"
+fi
+
+die() {
+	echo "[E] $1 Failed."
+	exit 1
+}
+
+winepath="/usr/multi/wine/$1"
+
+if [ "$DONT_BUILD" = "0" ]; then
+	# Unpack tarball. In pwd.
+	echo "[I] Unpacking wine..."
+	tar -xpf "$WINETB" \
+		>/dev/null 2>&1 || die "Unpack"
+
+	if [ "$STAGING" = "1" ]; then
+		echo "[I] Unpacking staging..."
+
+		# Unpack tarball. In pwd.
+		tar -xpf "$STGTB" \
+			>/dev/null 2>&1 || die "Staging unpack"
+
+		echo "[I] Applying staging..."
+
+		# Apply staging.
+		cd wine-staging-${1}/patches
+		./patchinstall.sh DESTDIR="$(pwd)/../../wine-${1}" --all \
+			>/dev/null 2>&1 || die "Staging apply"
+		cd ../..
+	fi
+
+	# Make build dirs.
+	mkdir buildwine-{64,32}
+
+	# Enter build 64 first.
+	cd buildwine-64
+	echo "[I] Configuring 64bit wine..."
+
+	../wine-${1}/configure 			\
+		--prefix="/usr/multi/wine/$1"		\
+		--datadir="/usr/multi/wine/$1/share"	\
+		--sysconfdir="/usr/multi/wine/$1/etc"	\
+		--mandir="/usr/multi/wine/$1/man"	\
+		--enable-win64				\
+	>/dev/null 2>&1 || die "64bit configure"
+
+	echo "[I] Building 64bit wine..."
+
+	make -j$(nproc) \
+		>/dev/null 2>&1 || die "64bit build"
+
+	cd ../buildwine-32
+
+	echo "[I] Configuring 32bit wine..."
+
+	../wine-${1}/configure 			\
+		--prefix="/usr/multi/wine/$1"		\
+		--datadir="/usr/multi/wine/$1/share"	\
+		--sysconfdir="/usr/multi/wine/$1/etc"	\
+		--mandir="/usr/multi/wine/$1/man"	\
+		--enable-wine64=$(pwd)/../buildwine-64	\
+	>/dev/null 2>&1 || die "32bit configure"
+
+	echo "[I] Building 32bit wine..."
+
+	make -j$(nproc) \
+		>/dev/null 2>&1 || die "32bit build"
+
+	echo "[I] Installing..."
+
+	make install \
+		>/dev/null 2>&1 || die "32bit install"
+
+	cd ../buildwine-64
+
+	make install \
+		>/dev/null 2>&1 || die "64bit install"
+
+fi
+
+echo "[I] Applying paxctl mprotect fix..."
+
+# Mprotect has to be off. =_=
+paxctl -c $winepath/bin/wine{,64} \
+	>/dev/null 2>&1 || die "PaX convert"
+paxctl -m $winepath/bin/wine{,64} \
+	>/dev/null 2>&1 || die "PaX mprot"
+paxctl -c $winepath/bin/wine-preloader \
+	>/dev/null 2>&1 || die "PaX convert preloader"
+paxctl -m $winepath/bin/wine-preloader \
+	>/dev/null 2>&1 || die "PaX mprot preloader"
+
+echo "[I] Applying cap_sys_ptrace=eip for DLL injectors..."
+
+# For DLL injection to work. SKSE, OBSE, etc.
+setcap cap_sys_ptrace=eip $winepath/bin/wineserver \
+	>/dev/null 2>&1 || die "ptrace setcap"
+
+echo "[I] Checking whether msfonts is in use..."
+
+if [ -e "$winepath/share/wine/.using_msfonts" ]; then
+	echo "[I] Yes. No changes will be made."
+	FIXFONTS=0
+else
+	echo "[I] No. Relinking things to force wine to use MS fonts."
+	FIXFONTS=1
+fi
+
+if [ "$FIXFONTS" = "1" ]; then
+
+	echo "[I] Moving wine's fonts out of the way."
+
+	# Wine's fonts suck. Fix this (allowing reversion, course)
+	# Move internal fonts to an old dir.
+
+	mv $winepath/share/wine/{fonts,fonts-wine} \
+		>/dev/null 2>&1 || die "Font move"
+
+	echo "[I] Copying MS fonts into directory..."
+
+	# Link MS fonts in.
+
+	cp -a /usr/share/msfonts $winepath/share/wine/fonts-ms \
+		>/dev/null 2>&1 || die "Copy fonts"
+
+	echo "[I] Linking wine fonts to MS ones."
+
+	# Link font dir to MS fonts.
+
+	ln -s $winepath/share/wine/fonts{-ms,} \
+		>/dev/null 2>&1 || die "Link fonts"
+
+	echo "[I] Touch .using_msfonts so we don't do this again."
+	# So we don't do this again.
+	touch $winepath/share/wine/.using_msfonts
+fi
+
+echo "[I] Done installing/fixing."
+
