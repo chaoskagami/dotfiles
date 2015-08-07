@@ -1257,7 +1257,6 @@
     </tabpanels>
   </tabbox>
   <hbox align="center">
-    <spacer flex="1"/>
     <button command="closeCmd" class="button-icon" icon="accept"/>
   </hbox>
   <separator class="thin"/>
@@ -1538,29 +1537,6 @@
            accesskey="&foxyproxy.close.accesskey;"
            tooltiptext="&foxyproxy.close.tooltip;"
            oncommand="window.close()"/>
-
-  <command id="donateCmd"
-           label="&foxyproxy.please.donate.label;"
-           accesskey="&foxyproxy.please.donate.accesskey;"
-           tooltiptext="&foxyproxy.please.donate.label;"
-           oncommand="fpc.openAndReuseOneTabPerURL('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=7145571');"/>
-
-  <command id="fppCmd"
-           label="&foxyproxy.getfoxyproxyplus.label;"
-           tooltiptext="&foxyproxy.getfoxyproxyplus.label;"
-           oncommand="fpc.openAndReuseOneTabPerURL('http://getfoxyproxy.org/fpplus');"/>
-
-  <command id="proxyServiceCmd"
-           label="&foxyproxy.proxyservice.label;"
-           accesskey="&foxyproxy.proxyservice.accesskey;"
-           tooltiptext="&foxyproxy.proxyservice.tooltip;"
-           oncommand="fpc.openAndReuseOneTabPerURL('http://getfoxyproxy.org/proxyservice/');"/>
-
-  <command id="fpChromeCmd"
-           label="&foxyproxy.foxyproxychrome.label;"
-           accesskey="&foxyproxy.foxyproxychrome.accesskey;"
-           tooltiptext="&foxyproxy.foxyproxychrome.tooltip;"
-           oncommand="fpc.openAndReuseOneTabPerURL('https://chrome.google.com/webstore/detail/gcknhkkoolaabfmlnjonogaaifnjlfnp');"/>
 
   <command id="importSettingsCmd"
            label="&foxyproxy.importsettings.label2;"

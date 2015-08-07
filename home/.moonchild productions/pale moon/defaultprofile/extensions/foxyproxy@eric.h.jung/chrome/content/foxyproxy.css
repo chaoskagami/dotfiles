@@ -147,6 +147,17 @@ treechildren::-moz-tree-checkbox(checked) {
   list-style-image: url("chrome://foxyproxy/content/images/emblem-favorite.png");
   font-weight: bold;
 }
+#foxyproxy-plus-button {
+  list-style-image: url("chrome://foxyproxy/content/images/fpplus.png");
+  font-weight: bold;
+}
+#foxyproxy-proxyservice-button {
+  list-style-image: url("chrome://foxyproxy/content/images/internet-web-browser.png");
+  font-weight: bold;
+}
+#foxyproxy-chrome-button {
+  font-weight: bold;
+}
 /* end options.xul buttons */
 
 /* begin tab icons */
